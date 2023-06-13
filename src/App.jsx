@@ -5,11 +5,11 @@ function App() {
   return (
     <>
       
-     <Header />
+     <Header /> 
 
-      <Home />
+      <Home /> 
 
-      <CarrocelCards />
+      <CarouselCards />
 
       <Footer />
      
