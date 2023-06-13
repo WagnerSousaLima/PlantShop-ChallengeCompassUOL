@@ -1,3 +1,5 @@
+
+import { Header } from './Header';
 import './global.css';
 
 function App() {
@@ -5,13 +7,12 @@ function App() {
   return (
     <>
       
-     <Header /> 
+     <Header />
 
-      <Home /> 
 
-      <CarouselCards />
+      
 
-      <Footer />
+      
      
     </>
   )
