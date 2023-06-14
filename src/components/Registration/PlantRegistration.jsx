@@ -3,20 +3,20 @@ import "../Registration/PlantResgistration.module.css";
 function PlantRegistration() {
 	return (
 		<div>
-			<form className=" register">
+			<form>
 				<h1>Plant registration</h1>
                 <hr/>
 
-                <label htmlFor="">Plant name</label>
+                <label htmlFor="name">Plant name</label>
 				<input type="text" placeholder="Plant name" />
 
-                <label htmlFor="">Plant subtitle</label>
-				<input type="text" placeholder="Plant type" />
+                <label htmlFor="subtitle">Plant subtitle</label>
+				<input type="text" placeholder="Plant subtitle" />
                 
-                <label htmlFor="">Price</label>
+                <label htmlFor="price">Price</label>
 				<input type="number" placeholder="Price" />
 
-                <label htmlFor="">Discount percentage</label>
+                <label htmlFor="discount">Discount percentage</label>
 				<input type="number" placeholder="Discount percentage" />
 
 				<div>
