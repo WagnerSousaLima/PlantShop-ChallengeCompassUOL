@@ -1,0 +1,36 @@
+.divCard {
+    background-color: var(--white);
+    box-shadow: 0px 6.47552px 6px rgba(41, 41, 41, 0.08);
+    margin-bottom: 12rem;
+}
+
+.imageCard {
+    width: 100%;
+}
+
+.plantInfos {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem 2rem;
+}
+
+.plantTitle {
+    color: var(--green-700);
+    font-size: 1.5rem;
+    font-family: var(--font-secondary);
+}
+
+.plantPrice {
+    color: var(--green-700);
+    font-size: 1rem;
+}
+
+.plantTag {
+    width: 20%;
+    padding: .5rem;
+    border: 1px solid var(--green-400);
+    border-radius: 1.2rem;
+    color: var(--green-400);
+    margin-top: 1rem;
+}
