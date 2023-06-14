@@ -1,0 +1,23 @@
+form {
+    
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 36px;
+
+    position: absolute;
+    width: 572px;
+    height: 1075px;
+    right: 997px;
+    top: 79px;
+
+    border-radius: 8px;
+}
+
+form label{
+    display: flex;
+    flex-direction: row;
+}
+
