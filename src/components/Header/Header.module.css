@@ -16,7 +16,7 @@
 
 }
 
-.header img {
+.header img svg{
     height: 3.40rem;
     width: 3.35rem;
 }
@@ -58,6 +58,15 @@
 
 .links a:hover {
     color: var(--green-400);
+}
+
+.login {
+    width: 2.1875rem;
+    height:  2.1875rem;
+    left: 97.625rem;
+    top: 27px;
+
+    background-image: url('./imgs/loginPhoto.png');
 }
 
 
