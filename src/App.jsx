@@ -1,19 +1,23 @@
 import './global.css';
 
+import Details from './components/Details/Details';
+
 function App() {
  
   return (
-    <>
-      
-     <Header /> 
+    <div>      
+      {/* <Header /> 
 
-      <Home /> 
+      <Home />
+       */}
 
+      <Details />
+{/* 
       <CarouselCards />
 
       <Footer />
-     
-    </>
+      */}
+    </div>
   )
 }
 
