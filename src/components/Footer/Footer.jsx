@@ -5,7 +5,7 @@
         </div>
         <div className="aside">
           <div className="links">
-            <h1>inks</h1>
+            <h1>Links</h1>
           </div>
           <div className="community">
             
