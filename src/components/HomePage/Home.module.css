@@ -1,3 +1,9 @@
+/* Global styling */
+p {
+  font-size: 1rem;
+  font-family: "Raleway";
+}
+
 /* Main Section */
 
 .homeMain {
@@ -9,7 +15,7 @@
 
 .mainContent {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   max-width: 50%;
 }
@@ -27,7 +33,7 @@ h2 {
   margin-bottom: 1rem;
   font-family: "EB Garamond";
   font-weight: 700;
-  font-size: 4em;
+  font-size: 4rem;
   color: #354733;
 }
 
@@ -39,13 +45,16 @@ em {
 .subtitle {
   display: inline-flex;
   align-items: baseline;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
+}
+
+.subtitleText {
+  margin-inline-start: 0.5em;
 }
 
 .homeMainText p {
   margin-bottom: 1rem;
   color: #808276;
-  font-family: "Raleway";
   z-index: 1;
 }
 
@@ -99,7 +108,7 @@ button:hover {
 .learnGardening {
   padding: 3em 2em;
   margin: 1rem;
-  z-index: 2;
+  z-index: 1;
 }
 
 .learnGardening a {
@@ -110,7 +119,7 @@ button:hover {
 .leftBackgroundImage {
   filter: grayscale(100%);
   position: absolute;
-  left: -1%;
+  left: 0;
   top: 40%;
   object-fit: cover;
 }
@@ -123,68 +132,89 @@ button:hover {
 
 /* Second Section */
 
-.homeSection {
+/* Grid container */
+
+.moreInfo {
   background-color: #fcfcfc;
-  margin: 4em;
+  padding: 5rem 3rem;
+  display: grid;
+  gap: 4rem;
 }
 
-.stepsTitle {
-  text-align: center;
-}
+/* Grid rows and columns */
 
-.stepsTitle h2 {
-  padding-top: 1em;
-}
-
-.stepsTitle p {
-  padding-inline: 3em;
-  padding-block-end: 3em;
-  color: #AFB2AA;
-}
-
-.stepsSection {
-  display: flex;
-  text-align: center;
-}
-
-.stepsSection div {
+.titleItem {
+  grid-column: 1 / span 3;
+  grid-row: 1;
   width: 100%;
+}
+
+.firstStep {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.secondStep {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.thirdStep {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.firstImg {
+  grid-column: 1;
+  grid-row: 3;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.secondImg {
+  grid-column: 2;
+  grid-row: 3;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.thirdImg {
+  grid-column: 3;
+  grid-row: 3;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Styling */
+
+
+.titleItem,
+.titleItem > p {
+  text-align: center;
+  color: #afb2aa;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.5rem;
+}
+
+.firstStep,
+.secondStep,
+.thirdStep {
+  text-align: center;
+}
+
+.firstStep p,
+.secondStep p,
+.thirdStep p {
+  color: #808276;
   margin: 1em;
 }
 
-.stepsSection h3 {
-  color: #1E1E24;
-  padding: 1em;
-}
-
-.stepsSection p {
+.websiteInfo p {
+  margin: 1rem 0 2rem 0;
   color: #808276;
-  font-size: 1em;
-  padding-inline-end: 1em;
-}
-
-.websitePictures {
-  padding-top: 1em;
-  display: flex;
-}
-
-.websitePictures > img {
-  width: 30%;
-  object-fit: cover;
-  padding-inline: 1em;
-}
-
-.websiteInfo {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  padding-inline: 2em;
-  color: #808276;
-}
-
-.websiteInfo img {
-  width: 100%;
-  object-fit: cover;
 }
