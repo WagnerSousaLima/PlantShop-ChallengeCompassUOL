@@ -6,15 +6,17 @@ import {
 } from "@clerk/clerk-react";
 import styles from './Header.module.css';
 import logoHeader from './imgs/logoHeader.svg'
+import avatarLogin from './imgs/loginPhoto.png'
 
 
 export function Header() {
   return (
      
     <header className={styles.header}>
-      <div className={styles.imgvetor}>
+
+      <div className={styles.imgVetor}>
         <img src={logoHeader} alt="logotipo" />
-        </div>
+      </div>
       
       <div className={styles.links}>
         <a href="#">Home</a>
@@ -26,12 +28,15 @@ export function Header() {
       <div className={styles.login}>
       
         <SignedIn>
-          <UserButton /> 
+          <UserButton />
         </SignedIn>
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-    
+        <SignedOut>
+          <SignInButton mode='modal'>
+            <button>
+              <img src={avatarLogin} alt="imagem do link de login" />
+            </button>
+          </SignInButton>
+        </SignedOut>
     
       </div>
           
