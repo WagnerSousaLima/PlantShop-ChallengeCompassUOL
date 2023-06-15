@@ -8,6 +8,7 @@
     --gray-800: #202024;
     --gray-900: #121214;
   
+    --green-100: #F0F1EE;
     --green-200: #AFB2AA;
     --green-300:#808276;
     --green-350:rgba(138, 155, 110, 0.57);
@@ -15,6 +16,9 @@
     --green-500: #83E281;
     --green-700:  #354733;
     
+    --font-principal: 'EB Garamond', serif;
+    --font-secondary: 'Lato', sans-serif;
+    --font-details: 'Raleway', sans-serif;
 }
 
 
@@ -26,12 +30,12 @@
 
 body {
     background: var(--white);
-    color: var(--green-700)
+    color: var(--green-700);
     -webkit-font-smoothing: antialiased;
   }
   
   body, input, textarea, button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1rem;
   }
