@@ -12,32 +12,37 @@ const Home = () => {
   return (
     <>
       <div className={classes.homeMain}>
-        <span className={classes.homeMainText}>
-          <article className={classes.subtitle}>
+        
+        <div className={classes.mainContent}>
+          <span className={classes.homeMainText}>
+            <article className={classes.subtitle}>
+              <p>
+                <svg
+                  className={classes.rectangle}
+                  width="32"
+                  height="3"
+                  viewBox="0 0 32 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="32" height="3" fill="#1E1E24" />
+                </svg>
+                Love for Nature
+              </p>
+            </article>
+            <h1>
+              Discover your <em>green</em> side
+            </h1>
             <p>
-              <svg
-                className={classes.rectangle}
-                width="32"
-                height="3"
-                viewBox="0 0 32 3"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect width="32" height="3" fill="#1E1E24" />
-              </svg>
-              Love for Nature
+              We are your one-stop destination for all things green and growing.
+              Our website offers a wide array of stunning plants, ranging from
+              vibrant flowers to lush indoor foliage, allowing you to create
+              your very own green oasis.
             </p>
-          </article>
-          <h1>
-            Discover your <em>green</em> side
-          </h1>
-          <p>
-            We are your one-stop destination for all things green and growing.
-            Our website offers a wide array of stunning plants, ranging from
-            vibrant flowers to lush indoor foliage, allowing you to create your
-            very own green oasis.
-          </p>
-          <button className={classes.buttonShopNow}>Shop now</button>
+            <button className={classes.buttonShopNow}>
+              <span className={classes.buttonText}>Shop now</span>
+            </button>
+          </span>
           <span className={classes.leftBackgroundImage}>
             <img
               src={leftBackground}
@@ -45,17 +50,11 @@ const Home = () => {
               draggable="false"
             />
           </span>
-        </span>
-        {/* <svg
-          className={classes.square}
-          width="80"
-          height="80"
-          viewBox="0 0 100 100"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="100" height="100" fill="#D9D9D9" />
-        </svg> */}
+
+          <div className={classes.learnGardening}>
+            <a href="">Learn Gardening &rarr;</a>
+          </div>
+        </div>
         <span className={classes.backgroundImage}>
           <img src={background} alt="background image" draggable="false" />
         </span>
@@ -118,7 +117,9 @@ const Home = () => {
               support you every step of the way. Get ready to explore our
               virtual garden and discover the joys of gardening with us!
             </p>
-            <button className={classes.seeMoreButton}>See more photos</button>
+            <button className={classes.seeMoreButton}>
+              <span className={classes.buttonText}>See more photos</span>
+            </button>
           </div>
         </article>
       </section>
