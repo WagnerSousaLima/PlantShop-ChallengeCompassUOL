@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+ feat-Header
     "@clerk/clerk-react": "^4.20.0",
+
+    "@splidejs/react-splide": "^0.7.12",
+    "axios": "^1.4.0",
+ main
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

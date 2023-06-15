@@ -1,7 +1,12 @@
+ feat-Header
 
 import React from 'react';
 import { Header } from './components/Header/Header';
+
+
+
 import './global.css';
+import CarouselCards from './components/HomeCarousel/CarouselCards';
 
 import { ClerkProvider } from "@clerk/clerk-react";
 
@@ -15,6 +20,7 @@ function App() {
  
   return (
     <>
+ feat-Header
       <ClerkProvider publishableKey={clerkPubKey}> 
 
           <Header />
@@ -22,6 +28,19 @@ function App() {
       </ClerkProvider>
      
       
+=======
+<feat-Carousel />
+
+      <CarouselCards />     
+      
+
+     <PlantRegistration />
+   
+
+      
+     
+
+
     </>
   )
 }
