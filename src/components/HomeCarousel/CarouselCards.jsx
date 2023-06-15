@@ -1,9 +1,22 @@
+import { useEffect, useState } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { api } from '../Services/api';
 import '@splidejs/react-splide/css/sea-green';
 import style from './CarouselCards.module.css'
 import CardPlant from './Card/CardPlant';
 
 const CarouselCards = () => {
+    const [plants, setPlants] = useState([]);
+
+    useEffect(() => {
+        api.get('./plants').then((response) => {
+            setPlants(response.data)
+        })
+    }, []);
+
+    const discountPlants = plants.filter((plant) => plant.discountPercentage > 0);
+    const noDiscountPlants = plants.filter((plant) => plant.discountPercentage === "");
+
     return (
         <div className={style.divCarousel}>
             <section>
@@ -12,15 +25,21 @@ const CarouselCards = () => {
                     aria-label="My Favorite Images"
                     options={ {
                             type: 'loop',
-                            perPage: 3,
+                            perPage: 4,
                             perMove: 1,
-                            gap: '3rem',
+                            gap: '2rem',
                             speed: 3000,
                         }
                     }>
-                    <SplideSlide>
-                        <CardPlant/>
-                    </SplideSlide>
+                    {noDiscountPlants.map((plant) => (
+                        <SplideSlide key={plant.id}>
+                            <CardPlant
+                                name={plant.name}
+                                price={plant.price}
+                                label={plant.label}
+                            />
+                        </SplideSlide>
+                    ))}
                 </Splide>                
             </section>
             <section>
@@ -29,15 +48,22 @@ const CarouselCards = () => {
                     aria-label="My Favorite Images"
                     options={ {
                             type: 'loop',
-                            perPage: 3,
+                            perPage: 4,
                             perMove: 1,
-                            gap: '3rem',
+                            gap: '2rem',
                             speed: 3000,
                         }
                     }>
-                    <SplideSlide>
-                        <CardPlant/>
-                    </SplideSlide>
+                    {discountPlants.map((plant) => (
+                        <SplideSlide key={plant.id}>
+                            <CardPlant
+                                name={plant.name}
+                                price={plant.price}
+                                discount={plant.discountPercentage}
+                                label={plant.label}
+                            />
+                        </SplideSlide>
+                    ))}
                 </Splide>       
             </section>
         </div>

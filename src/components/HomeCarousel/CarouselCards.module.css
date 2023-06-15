@@ -2,7 +2,7 @@
 
 .divCarousel {
     background-color: var(--green-100);
-    padding: 6.25rem;
+    padding: 2rem;
 }
 
 .sectionTitle {
@@ -10,7 +10,7 @@
     text-align: center;
     font-size: 4rem;
     font-family: var(--font-principal);
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 
 .titleStrong {
