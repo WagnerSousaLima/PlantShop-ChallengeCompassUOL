@@ -5,6 +5,7 @@ import './global.css';
 
 import { ClerkProvider } from "@clerk/clerk-react";
 
+
 if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
 }
@@ -14,22 +15,13 @@ function App() {
  
   return (
     <>
-      <ClerkProvider publishableKey={clerkPubKey}>
-
-    
+      <ClerkProvider publishableKey={clerkPubKey}> 
 
           <Header />
 
-       
-
       </ClerkProvider>
      
-
-
       
-
-      
-     
     </>
   )
 }
