@@ -1,17 +1,14 @@
+import { PlantRegistration } from './components/Registration/PlantRegistration';
 import './global.css';
 
 function App() {
  
   return (
     <>
+     <PlantRegistration />
+   
+
       
-     <Header /> 
-
-      <Home /> 
-
-      <CarouselCards />
-
-      <Footer />
      
     </>
   )
