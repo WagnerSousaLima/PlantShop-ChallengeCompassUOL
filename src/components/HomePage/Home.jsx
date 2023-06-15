@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <div className={classes.homeMain}>
         <div className={classes.mainContent}>
-          <span className={classes.homeMainText}>
+        <span className={classes.homeMainText}>
             <article className={classes.subtitle}>
               <svg
                 className={classes.rectangle}
@@ -27,6 +27,7 @@ const Home = () => {
               </svg>
               <p className={classes.subtitleText}>Love for Nature</p>
             </article>
+            
             <h1>
               Discover your <em>green</em> side
             </h1>
@@ -40,13 +41,13 @@ const Home = () => {
               <span className={classes.buttonText}>Shop now</span>
             </button>
           </span>
-          <span className={classes.leftBackgroundImage}>
+          {/* <span className={classes.leftBackgroundImage}>
             <img
               src={leftBackground}
               alt="left background image"
               draggable="false"
             />
-          </span>
+          </span> */}
 
           <div className={classes.learnGardening}>
             <a href="">Learn Gardening &rarr;</a>

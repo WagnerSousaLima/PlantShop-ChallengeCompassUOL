@@ -1,5 +1,7 @@
 /* Global styling */
-p {
+p,
+button,
+a {
   font-size: 1rem;
   font-family: "Raleway";
 }
@@ -11,11 +13,14 @@ p {
   background-color: #f0f1ee;
   width: 100%;
   justify-content: space-between;
+  background-image: url(/src/components/HomePage/Images/left\ plant.png);
+  background-position-y: 20rem;
+  background-repeat: no-repeat;
 }
 
 .mainContent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   max-width: 50%;
 }
@@ -48,14 +53,15 @@ em {
   margin-bottom: 1rem;
 }
 
-.subtitleText {
+.subtitle > .subtitleText {
   margin-inline-start: 0.5em;
+  font-family: 'Pacifico', cursive;
+  color: #000000;
 }
 
 .homeMainText p {
   margin-bottom: 1rem;
   color: #808276;
-  z-index: 1;
 }
 
 .homeMainText {
@@ -63,7 +69,6 @@ em {
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
 }
 
@@ -75,7 +80,6 @@ button {
   color: #fcfcfc;
   padding: 1rem 3rem;
   cursor: pointer;
-  z-index: 1;
   position: relative;
   overflow: hidden;
 }
@@ -199,6 +203,7 @@ button:hover {
 h3 {
   margin-top: 1em;
   font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .firstStep,
