@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+.main {
+    width: 100vw;
+}
+
+.Container {
+    width: 100vw;
+    height: 25rem;
+    padding: 8rem 6rem 6rem 6rem;
+    background-color: #F0F1EE;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutUs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: EB Garamond;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.17rem;
+}
+
+hr {
+    width: 45vw;
+    color: #000000;
+    border-top: 1px solid #000000;  
+}
+
+.aboutText {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+
+    padding-top: 2rem;
+    width: 45vw;
+}
+
+img .Plant {
+    order: 1;
+    align-self: flex-end;
+    align-content: flex-end;
+    height: auto;
+}
+
+.DevelopersBody {
+    width: 100vw;
+    height: auto;
+    padding: 3rem 6rem 6rem 6rem;
+}
+
+.Body {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+ 
+
+.Developers {
+    width: 22rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    background-color: #F0F1EE;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* .Detail {
+    width: 100%;
+    height: 30%;
+    background-color: #8A9B6E;    
+} */
+
+.Photo {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-top: 4.5rem;  
+}
+
+h3 {
+    font-family: EB Garamond;
+    font-size: 700;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #354733;
+
+    padding: 1rem;
+}
+
+#All {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #808276;
+
+    margin-bottom: 6rem;;
+}
+
+.Logo{
+    align-items: flex-end;
+    width: 2.5rem;
+    height: 2.5rem;
+}

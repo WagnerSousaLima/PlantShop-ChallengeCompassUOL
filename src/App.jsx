@@ -11,7 +11,7 @@ function App() {
       <Home />
        */}
 
-      <Details />
+      <Details />      
 {/* 
       <CarouselCards />
 

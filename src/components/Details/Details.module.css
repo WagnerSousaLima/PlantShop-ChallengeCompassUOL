@@ -4,47 +4,53 @@
 
 .container {
     display: flex;         
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 4rem;
+   
+    padding: 2rem 4rem;
+
+    min-height: 100vh;
+    min-width: 90vw;   
 }
 
 .image {    
     flex: 1;
-    max-width: 30rem;
+    min-width: 40vw;
+    max-width: 35rem;
     height: auto;
-    clip-path: inset(15% 0% 15% 0%);
+    clip-path: inset(20% 0% 18% 0%);
     opacity: 0.9;    
 }
 
 .content {
     flex: 1;
+    width: 45vw;
     justify-content: center;
-    margin-left: 6.25rem;
+    margin-left: 3rem;
     margin-top: 0;    
 }
 
 h1{
     font-family: EB Garamond;
     font-weight: 700;
-    font-size: 3rem;
-    line-height: 3.75rem;
+    font-size: 3.2rem;
+    line-height: 4.15rem;
     color: #354733;    
 }
 
 .title_description {
     font-family: Lato;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.35rem;
+    font-size: 1.12rem;
+    line-height: 1.44rem;
     color: #AFB2AA;
 }
 
 h2{
     font-family: Lato;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.35rem;
+    font-size: 1.12rem;
+    line-height: 1.44rem;
     color: #000000;
 
     margin-top: 10px;
@@ -61,8 +67,8 @@ h2{
 .tag {
     font-family: Raleway;
     font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 1.125rem;
+    font-size: 0.8rem;
+    line-height: 1.23rem;
     color: #158212;
 
     margin-top: 1rem;
@@ -80,12 +86,12 @@ h2{
 .price {
     font-family: Lato;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.35rem;
+    font-size: 1.12rem;
+    line-height: 1.44rem;
     color: #000000;   
 }
 
-.button {
+.button {     
     padding: 1.125rem 3rem 1.125rem 3rem;
     border: 1px solid #354733;
     background-color: #354733;
@@ -98,16 +104,18 @@ h2{
 
     font-family: Raleway;
     font-weight: 400;
-    font-size: 0.75rem;     
+    font-size: 0.8rem;     
     align-items: center;
     color: #F8F9FB;
+
+    pointer-events: auto;
 }
 
 .features {
     font-family: Raleway;
     font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 1.125rem;
+    font-size: 0.8rem;
+    line-height: 1.23rem;
     align-items: center;
     margin-left: 1.125rem;
     color: #000000;
@@ -116,10 +124,26 @@ h2{
 .description {
     font-family: Raleway;
     font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 1.125rem;
+    font-size: 0.8rem;
+    line-height: 1.23rem;
     display: flex;
     align-items: center;
     color: #000000;
 }
 
+/* @media only screen and (min-width: 300px) and (max-width: 700px) {
+    .container {
+        display: flex;         
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {    
+        align-self: stretch;
+    }
+    
+    .content {
+        align-self: stretch;
+    }
+
+} */
