@@ -1,4 +1,4 @@
- feat-Header
+
 
 import React from 'react';
 import { Header } from './components/Header/Header';
@@ -7,8 +7,9 @@ import { Header } from './components/Header/Header';
 
 import './global.css';
 import CarouselCards from './components/HomeCarousel/CarouselCards';
-
 import { ClerkProvider } from "@clerk/clerk-react";
+import PlantRegistration from './components/Registration/PlantRegistration';
+import Home from './components/HomePage/Home';
 
 
 if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
@@ -17,28 +18,25 @@ if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
 const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
 
 function App() {
- 
+
   return (
     <>
- feat-Header
-      <ClerkProvider publishableKey={clerkPubKey}> 
+      <ClerkProvider publishableKey={clerkPubKey}>
 
-          <Header />
+        <Header />
 
       </ClerkProvider>
-     
-      
-=======
-<feat-Carousel />
 
-      <CarouselCards />     
-      
 
-     <PlantRegistration />
-   
+      <Home />
 
-      
-     
+
+      <CarouselCards />
+
+
+
+
+
 
 
     </>

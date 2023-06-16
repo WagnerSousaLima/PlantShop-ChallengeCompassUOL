@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import { api } from '../Services/api';
+import { api } from '../../Services/api';
 import '@splidejs/react-splide/css/sea-green';
 import style from './CarouselCards.module.css'
 import CardPlant from './Card/CardPlant';

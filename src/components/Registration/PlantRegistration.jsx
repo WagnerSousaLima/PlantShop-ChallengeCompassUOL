@@ -1,23 +1,7 @@
-<<<<<<< HEAD
-function PlantRegistration(){
-    return(
 
- <div className="">
-    <form action="">
-    <div><input type="text" placeholder="Plant Name" /></div>
-    <div><input type="text" placeholder="Plant Type" /></div>
-    
-    </form>
- </div>
-
-    )
-}
-
-export default PlantRegistration;
-=======
 import styles from "./PlantRegistration.module.css";
 
-export function PlantRegistration() {
+ function PlantRegistration() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.form}>
@@ -58,8 +42,8 @@ export function PlantRegistration() {
 			</div>
 
 			<div>
-			<label htmlFor={styles.register}>Register</label>
-					<input type="text" placeholder="" />
+				<label htmlFor={styles.register}>Register</label>
+				<input type="text" placeholder="" />
 			</div>
 
 		</div>
@@ -67,4 +51,5 @@ export function PlantRegistration() {
 
 	);
 }
->>>>>>> feat_Registration
+
+export default PlantRegistration;
