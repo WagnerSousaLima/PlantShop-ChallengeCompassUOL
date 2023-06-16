@@ -1,8 +1,18 @@
 <>
-<footer>
-        <div>Stay fresh + texto </div>
-        <div>links</div>
-        <div>comunity</div>
-        <div>logo + reserved</div>
-      </footer>
+  <footer>
+        <div className="main">
+
+        </div>
+        <div className="aside">
+          <div className="links">
+            <h1>inks</h1>
+          </div>
+          <div className="community">
+            
+          </div>
+        </div>
+        <div className="base">
+
+        </div>
+  </footer>
 </>
