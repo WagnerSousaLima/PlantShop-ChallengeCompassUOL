@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <div className={classes.homeMain}>
         <div className={classes.mainContent}>
-        <span className={classes.homeMainText}>
+          <span className={classes.homeMainText}>
             <article className={classes.subtitle}>
               <svg
                 className={classes.rectangle}
@@ -27,7 +27,7 @@ const Home = () => {
               </svg>
               <p className={classes.subtitleText}>Love for Nature</p>
             </article>
-            
+
             <h1>
               Discover your <em>green</em> side
             </h1>
