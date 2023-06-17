@@ -1,0 +1,32 @@
+@import '../../global.css';
+
+.footer {
+    background-color: var(--green-700);
+    background-image: url('../../../public/images/footer_background.png');
+    color: var(--white);
+    padding: 32px 64px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+}
+
+.aside {
+    display: flex;
+}
+
+.main a, .aside a {
+    display: block;
+}
+
+.base {
+    border-top: 1px solid var(--white);
+    margin-top: 36px;
+    padding: 32px 0;
+}
