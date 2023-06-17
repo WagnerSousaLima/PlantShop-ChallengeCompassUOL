@@ -20,14 +20,14 @@ const Footer = (props) => {
           <a href="#">+55 41 99999-9999</a>
         </div>
         <div className={styles.aside}>
-          <div className="links">
+          <div className={styles.links}>
             <h2>Links</h2>
             <a href="#">About us</a>
             <a href="#">Products</a>
             <a href="#">Blogs</a>
           </div>
-          <div className="community">
-          <h2>Community</h2>
+          <div className={styles.community}>
+            <h2>Community</h2>
             <a href="#">About us</a>
             <a href="#">Products</a>
             <a href="#">Blogs</a>
@@ -36,6 +36,7 @@ const Footer = (props) => {
       </div>
       <div className={styles.base}>
         <img src="../../../public/images/footer_logo.png" alt="logo" />
+        <p>Compassinhos &copy;. All rights reserved.</p>
       </div>
     </footer>
   )
