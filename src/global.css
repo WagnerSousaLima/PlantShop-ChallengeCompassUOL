@@ -45,15 +45,10 @@ button {
   font-weight: 400;
   font-size: 1rem;
 }
-=======
-    background: var(--white);
-    color: var(--green-700);
-    -webkit-font-smoothing: antialiased;
-  }
-  
+
   body, input, textarea, button {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1rem;
   }
-   
+
