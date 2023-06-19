@@ -15,14 +15,13 @@ const CarouselCards = () => {
     }, []);
 
     const discountPlants = plants.filter((plant) => plant.discountPercentage > 0);
-    const noDiscountPlants = plants.filter((plant) => plant.discountPercentage === "");
+    const noDiscountPlants = plants.filter((plant) => plant.discountPercentage <= 0);
 
     return (
         <div className={style.divCarousel}>
-            <section>
+            <section className={style.sectionCarousel}>
                 <h2 className={style.sectionTitle}>This Weeks Most Popular <strong className={style.titleStrong}>And Best Selling</strong></h2>
                 <Splide 
-                    aria-label="My Favorite Images"
                     options={ {
                             type: 'loop',
                             perPage: 4,
@@ -42,10 +41,9 @@ const CarouselCards = () => {
                     ))}
                 </Splide>                
             </section>
-            <section>
+            <section className={style.sectionCarousel}>
                 <h2 className={style.sectionTitle}><strong className={style.titleStrong}>Plants In</strong> Sale</h2>
                 <Splide 
-                    aria-label="My Favorite Images"
                     options={ {
                             type: 'loop',
                             perPage: 4,
