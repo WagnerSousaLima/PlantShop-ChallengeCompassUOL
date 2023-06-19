@@ -211,20 +211,6 @@
         "description": "Lavender is a versatile herb known for its soothing fragrance and beautiful purple flowers. It is often used in aromatherapy, culinary recipes, and as a natural insect repellent. Lavender plants thrive in well-drained soil and full sunlight."
       },
       {
-        "id": 15,
-        "name": "Lavender",
-        "subtitle": "Fragrant Herb for the Garden",
-        "label": [
-          "outdoor",
-          "herb"
-        ],
-        "price": "$14.99",
-        "isInSale": true,
-        "discountPercentage": 20,
-        "features": "Light Requirements: Full sun. Watering: Allow soil to dry between waterings. Pot Size: Lavender is typically planted in the ground or in larger pots. Shipping: Our Lavender plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
-        "description": "Lavender is a versatile herb known for its soothing fragrance and beautiful purple flowers. It is often used in aromatherapy, culinary recipes, and as a natural insect repellent. Lavender plants thrive in well-drained soil and full sunlight."
-      },
-      {
         "id": 16,
         "name": "Sunflower",
         "subtitle": "Bright and Cheerful Garden Addition",
