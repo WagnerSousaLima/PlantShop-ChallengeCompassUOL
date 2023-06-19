@@ -33,9 +33,12 @@ if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
 }
 const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
 
+import Details from './components/Details/Details';
+
 function App() {
 
   return (
+
     <>
       <ClerkProvider publishableKey={clerkPubKey}>
 
@@ -81,11 +84,8 @@ function AuthWrapper() {
       <Home />
 
 
-      <CarouselCards />
 
-
-
-
+      <Details />   
 
 
 
