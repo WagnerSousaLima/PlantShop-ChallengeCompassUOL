@@ -43,7 +43,9 @@ const Home = () => {
 const Product = () => {
   return (
     <>
+      <HomePage />
       <Details />
+      <Footer />
     </>
   );
 };
@@ -51,7 +53,9 @@ const Product = () => {
 const Registration = () => {
   return (
     <>
+      <HomePage />
       <h1>Aqui fica o forms</h1>
+      <Footer />
     </>
   );
 };
@@ -59,8 +63,10 @@ const Registration = () => {
 const AboutUs = () => {
   return (
     <>
+      <HomePage />
       <h1>About Us Page</h1>
       {/* Restante do conteúdo da página */}
+      <Footer />
     </>
   );
 };
