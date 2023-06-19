@@ -15,6 +15,13 @@
   --green-500: #83E281;
   --green-700: #354733;
 
+
+    
+    
+    
+    --font-principal: 'EB Garamond', serif;
+    --font-secondary: 'Lato', sans-serif;
+    --font-details: 'Raleway', sans-serif;
 }
 
 
@@ -38,3 +45,15 @@ button {
   font-weight: 400;
   font-size: 1rem;
 }
+=======
+    background: var(--white);
+    color: var(--green-700);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body, input, textarea, button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+   

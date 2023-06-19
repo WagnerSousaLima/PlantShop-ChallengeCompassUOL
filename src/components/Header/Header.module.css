@@ -1,0 +1,101 @@
+.header { 
+  
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.10rem 6.25rem;
+  isolation: isolate;
+  max-width: 100%vh;
+  margin: auto;
+  height: 5.5rem;
+  background: #F0F1EE;
+  border: 1px transparent var(--gray-900);
+}
+
+.header > .imgvetor {
+  height: 3.40rem;
+  width: 3.35rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 23.9375rem;
+  height: 3.5625rem;
+}
+
+.links a {
+  height: 1.5625rem;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 154.5%;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--green-700);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  transition: color 0.2s, background 0.1s;
+}
+
+.links a:hover {
+  color: var(--green-400);
+}
+
+.login {
+  width: 2.1875rem;
+  height:  2.1875rem;
+  left: 97.625rem;
+  top: 27px;
+  
+
+  
+}
+
+.login > a {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+
+}
+
+@media (max-width: 700px) {
+.header, .links, .login{
+  grid-template-columns: 1fr;
+}
+.header {
+  padding: 1.5rem ;
+  
+}
+
+.links{
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: grid;
+  max-width: auto;
+  max-height: fit-content;
+  
+  grid-template-columns: 2.5rem 2.5rem;
+  
+  
+}
+
+.links a {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 1rem;
+  padding: 0.1rem;
+  gap: 1.5rem;
+  
+}
+}
+
