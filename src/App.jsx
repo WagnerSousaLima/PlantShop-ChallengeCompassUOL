@@ -1,25 +1,32 @@
 import React from 'react';
+import Footer from './components/Footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header/Header';
 import './global.css';
+import CarouselCards from './components/HomeCarousel/CarouselCards';
+import PlantRegistration from './components/Registration/PlantRegistration';
+import Home from './components/HomePage/Home';
 import { ClerkProvider, useUser, RedirectToSignIn } from '@clerk/clerk-react';
 import { neobrutalism } from '@clerk/themes';
 
+const Home = () => {
+  return (
+    <>
+      <h1>Página Inicial</h1>
+      <Footer />
+    </>
+  );
+};
+
+const Product = () => {
+  return (
+    <>
+      <h2>Produtos</h2>
+      <div>Insira os componentes dos produtos aqui</div>
+      <Footer />
+
 function App() {
   const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
-
-
-
-import React from 'react';
-import { Header } from './components/Header/Header';
-
-
-
-import './global.css';
-import CarouselCards from './components/HomeCarousel/CarouselCards';
-import { ClerkProvider } from "@clerk/clerk-react";
-import PlantRegistration from './components/Registration/PlantRegistration';
-import Home from './components/HomePage/Home';
-
 
 if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
@@ -83,7 +90,28 @@ function AuthWrapper() {
 
 
     </>
-  )
+  );
+};
+
+const Registration = () => {
+  return (
+    <>
+      <h2>Registro</h2>
+      <div>Insira os componentes do registro aqui</div>
+    </>
+  );
+};
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/registration" element={<Registration />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
