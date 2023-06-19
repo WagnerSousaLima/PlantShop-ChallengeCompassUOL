@@ -9,6 +9,8 @@ import Home from './components/HomePage/Home';
 import { ClerkProvider, useUser, RedirectToSignIn } from '@clerk/clerk-react';
 import { neobrutalism } from '@clerk/themes';
 
+import Details from './components/Details/Details';
+
 const Home = () => {
   return (
     <>
@@ -31,14 +33,7 @@ function App() {
 if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
 }
-const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
-
-import Details from './components/Details/Details';
-
-function App() {
-
-  return (
-
+   
     <>
       <ClerkProvider publishableKey={clerkPubKey}>
 
@@ -100,6 +95,7 @@ const Registration = () => {
       <div>Insira os componentes do registro aqui</div>
     </>
   );
+
 };
 
 function App() {

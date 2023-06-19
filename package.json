@@ -11,7 +11,8 @@
     "server": "json-server server.json -w --port 5173"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^4.20.0",
+    "@clerk/clerk-react": "^4.20.1",
+
 
     "@clerk/themes": "^1.7.5",
 
