@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+.main {
+    width: 100vw;
+}
+
+.Container {
+    position: relative;
+    width: 100vw;
+    height: 25rem;
+    padding: 8rem 0 0 6rem;
+    background-color: #F0F1EE;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+h2 {
+    font-family: EB Garamond;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.17rem;
+}
+
+hr {
+    width: 45vw;
+    color: #000000;
+    border-top: 1px solid #000000;  
+}
+
+.aboutText {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+
+    padding-top: 2rem;
+    width: 45vw;
+}
+
+.Plant {
+    max-width: 45%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    transform: translate(10%, -30%);
+}
+
+.DevelopersBody {
+    width: 100vw;
+    height: auto;
+    padding: 3rem 6rem 6rem 6rem;
+}
+
+.Body {
+    margin-top: 4rem;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+ 
+
+.Developers {
+    position: relative;
+    margin: 0 auto;
+    width: 22rem;
+    height: 30rem;    
+
+    background-color: #F0F1EE;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F0F1EE;    
+    border-radius: 20px;    
+}
+
+.blockGreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: -50%, -50%;   
+    width: 100%;
+    height: 35%;
+    background-color: #8A9B6E;    
+    border-radius: 20px 20px 0 0;
+}
+
+.Photo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rest {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #F0F1EE;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 0 0 20px 20px;
+}
+
+h3 {
+    font-family: EB Garamond;
+    font-size: 700;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #354733;
+
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+
+#All {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #808276;
+
+    margin-bottom: 6rem;;
+}
+
+.Logo{
+    align-items: flex-end;
+    width: 2.5rem;
+    height: 2.5rem;
+}

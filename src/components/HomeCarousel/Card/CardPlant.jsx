@@ -12,12 +12,12 @@ const CardPlant = (props) => {
                 <div>
                     {props.discount > 0 ? 
                         <div>
-                            <span className={style.plantPrice}>${discount}</span>
+                            <span className={style.plantPrice}>${discount.toFixed(2)}</span>
                             <span className={style.plantDiscount}>${props.price}</span>
                         </div>
                     : <span className={style.plantPrice}>${props.price}</span>}
                 </div>
-                <label className={style.plantTag}>{props.label}</label>
+                <label className={style.plantTag}>{props.label[0]}</label>
             </div>
         </div>
     )

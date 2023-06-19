@@ -22,7 +22,7 @@
           "indoor",
           "trailing"
         ],
-        "price": "$19.99",
+        "price": "19.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Low to medium light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Pothos plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -36,7 +36,7 @@
           "indoor",
           "air-purifying"
         ],
-        "price": "$29.99",
+        "price": "29.99",
         "isInSale": true,
         "discountPercentage": 10,
         "features": "Light Requirements: Low to bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Snake Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -50,7 +50,7 @@
           "indoor",
           "tree"
         ],
-        "price": "$79.99",
+        "price": "79.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Fiddle Leaf Fig plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -64,7 +64,7 @@
           "indoor",
           "climbing"
         ],
-        "price": "$49.99",
+        "price": "49.99",
         "isInSale": true,
         "discountPercentage": 15,
         "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Monstera Deliciosa plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -78,7 +78,7 @@
           "indoor",
           "hanging"
         ],
-        "price": "$14.99",
+        "price": "14.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Medium to bright indirect light. Watering: Keep soil evenly moist, but not waterlogged. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Spider Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -92,7 +92,7 @@
           "indoor",
           "medicinal"
         ],
-        "price": "$24.99",
+        "price": "24.99",
         "isInSale": true,
         "discountPercentage": 10,
         "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Aloe Vera plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -106,7 +106,7 @@
           "indoor",
           "flowering"
         ],
-        "price": "$29.99",
+        "price": "29.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Low to medium indirect light. Watering: Keep soil evenly moist, but not waterlogged. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Peace Lily plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -120,7 +120,7 @@
           "indoor",
           "tree"
         ],
-        "price": "$59.99",
+        "price": "59.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Rubber Tree plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -134,7 +134,7 @@
           "indoor",
           "low-maintenance"
         ],
-        "price": "$39.99",
+        "price": "39.99",
         "isInSale": true,
         "discountPercentage": 20,
         "features": "Light Requirements: Low to bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our ZZ Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -148,7 +148,7 @@
           "indoor",
           "succulent"
         ],
-        "price": "$19.99",
+        "price": "19.99",
         "isInSale": true,
         "discountPercentage": 15,
         "features": "Light Requirements: Bright direct light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Jade Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -162,7 +162,7 @@
           "indoor",
           "hanging"
         ],
-        "price": "$34.99",
+        "price": "34.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Indirect light. Watering: Keep soil evenly moist. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Boston Ferns are carefully packaged and shipped to ensure they arrive in excellent condition.",
@@ -176,7 +176,7 @@
           "outdoor",
           "flowering"
         ],
-        "price": "$49.99",
+        "price": "49.99",
         "isInSale": true,
         "discountPercentage": 10,
         "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: Roses are typically planted in the ground. Shipping: Our Rose Bushes are carefully packaged and shipped as bare-root plants to ensure they arrive in excellent condition.",
@@ -190,7 +190,7 @@
           "outdoor",
           "vegetable"
         ],
-        "price": "$9.99",
+        "price": "9.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: 10-15 gallon (38-57 liters) container is recommended for patio cultivation. Shipping: Our Tomato Plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
@@ -204,21 +204,7 @@
           "outdoor",
           "herb"
         ],
-        "price": "$14.99",
-        "isInSale": true,
-        "discountPercentage": 20,
-        "features": "Light Requirements: Full sun. Watering: Allow soil to dry between waterings. Pot Size: Lavender is typically planted in the ground or in larger pots. Shipping: Our Lavender plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
-        "description": "Lavender is a versatile herb known for its soothing fragrance and beautiful purple flowers. It is often used in aromatherapy, culinary recipes, and as a natural insect repellent. Lavender plants thrive in well-drained soil and full sunlight."
-      },
-      {
-        "id": 15,
-        "name": "Lavender",
-        "subtitle": "Fragrant Herb for the Garden",
-        "label": [
-          "outdoor",
-          "herb"
-        ],
-        "price": "$14.99",
+        "price": "14.99",
         "isInSale": true,
         "discountPercentage": 20,
         "features": "Light Requirements: Full sun. Watering: Allow soil to dry between waterings. Pot Size: Lavender is typically planted in the ground or in larger pots. Shipping: Our Lavender plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
@@ -232,7 +218,7 @@
           "outdoor",
           "flowering"
         ],
-        "price": "$6.99",
+        "price": "6.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: Sunflowers are typically grown directly in the ground. Shipping: Our Sunflower seeds are carefully packaged and shipped with planting instructions to ensure they arrive in excellent condition.",
@@ -246,7 +232,7 @@
           "outdoor",
           "shrub"
         ],
-        "price": "$24.99",
+        "price": "24.99",
         "isInSale": false,
         "discountPercentage": 0,
         "features": "Light Requirements: Full sun to partial shade. Watering: Keep soil evenly moist. Pot Size: Butterfly Bushes are typically planted in the ground. Shipping: Our Butterfly Bushes are carefully packaged and shipped as young plants to ensure they arrive in excellent condition.",
@@ -260,7 +246,7 @@
           "outdoor",
           "shrub"
         ],
-        "price": "$29.99",
+        "price": "29.99",
         "isInSale": true,
         "discountPercentage": 15,
         "features": "Light Requirements: Partial shade to full shade. Watering: Keep soil evenly moist. Pot Size: Hydrangeas are typically planted in the ground. Shipping: Our Hydrangeas are carefully packaged and shipped as young plants to ensure they arrive in excellent condition.",
@@ -274,13 +260,46 @@
           "outdoor",
           "flowering"
         ],
-        "price": "$39.99",
+        "price": "39.99",
         "isInSale": true,
         "discountPercentage": 10,
         "features": "Light Requirements: Full sun to partial shade. Watering: Keep soil evenly moist. Pot Size: Peonies are typically planted in the ground. Shipping: Our Peony plants are carefully packaged and shipped as bare-root plants to ensure they arrive in excellent condition.",
         "description": "Peonies are prized for their large, fragrant blooms and romantic charm. They come in a variety of colors and are often used in floral arrangements. Peonies prefer well-drained soil and thrive in areas with cool winters and mild summers."
       }    
 
+  ],
+
+  "developers": [
+    {
+      "id": 1,
+      "name": "Amanda",
+      "discription": "Giovanna é uma profissional de TI com experiência em suporte e infraestrutura, atualmente participando do Programa de Bolsas da Compass Uol. Seu foco atual é aprimorar suas habilidades em front-end e crescer profissionalmente."
+    },
+    {
+      "id": 2,
+      "name": "Cintia",
+      "discription": ""
+    },
+    {
+      "id": 3,
+      "name": "Eduardo",
+      "discription": ""
+    },
+    {
+      "id": 4,
+      "name": "Giovanna",
+      "discription": ""
+    },
+    {
+      "id": 5,
+      "name": "João",
+      "discription": ""
+    },
+    {
+      "id": 6,
+      "name": "Wagner",
+      "discription": ""
+    }
   ]
 }
 
