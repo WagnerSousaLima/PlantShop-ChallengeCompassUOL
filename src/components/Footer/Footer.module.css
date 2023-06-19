@@ -55,3 +55,23 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 480px) {
+    .top {
+        display: block;
+        border-bottom: 1px solid var(--white);
+        padding-bottom: 21px;
+    }
+    .top h1 {
+        color: var(--white);
+        font-family: 'EB Garamond', serif;
+        font-size: 48px;
+    }
+    .top a {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .main {
+        margin-bottom: 8px;
+    }
+}
