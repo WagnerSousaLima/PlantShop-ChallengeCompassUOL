@@ -56,6 +56,15 @@ const Registration = () => {
   );
 };
 
+const AboutUs = () => {
+  return (
+    <>
+      <h1>About Us Page</h1>
+      {/* Restante do conteúdo da página */}
+    </>
+  );
+};
+
 function App() {
   const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
   return (
@@ -72,10 +81,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/product" element={<Product />} />
             <Route path="/registration" element={<Registration />} />
+            <Route path="/about-us" element={<AboutUs />} /> {/* Nova rota para About Us */}
           </Routes>
         </Router>
       </ClerkProvider>
-      {/* Restante do conteúdo do aplicativo */}
     </div>
   );
 }
