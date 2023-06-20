@@ -1,8 +1,5 @@
-// import React from 'react';
-
+import { useEffect, useState } from 'react';
 import styles from './Details.module.css';
-// import { Link } from 'react-router-dom';
-
 
 const Details = () => {
     const handleClick = () => {
@@ -16,7 +13,7 @@ const Details = () => {
                 className={styles.image}
             />
             <div className={styles.content}>
-                <h1>Echinocereus Cactus</h1>
+                <h1 className={styles.title}>Echinocereus Cactus</h1>
                 <span className={styles.title_description}>A Majestic Addition to Your Plant Collection</span>
                 <div className={styles.tags}>
                     <p className={styles.tag}>indoor</p>
@@ -26,14 +23,14 @@ const Details = () => {
                 {/* <Link to="../Registration/PlantRegistration.jsx"> */}
                     <button onClick={handleClick} className={styles.button}>Check out</button>
                 {/* </Link> */}
-                <h2>Features</h2>
+                <h2 className={styles.subtitle}>Features</h2>
                 <ul className={styles.features}>
-                    <li>Species: Echinocereus spp.</li>
-                    <li>Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height.</li>
-                    <li>Blooming Season: Typically spring or summer, with flowers lasting several days to weeks.</li>
-                    <li>Por Size: Available in various pot sizes to suit your preference and needs.</li>                   
+                    <li className={styles.features}>Species: Echinocereus spp.</li>
+                    <li className={styles.features}>Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height.</li>
+                    <li className={styles.features}>Blooming Season: Typically spring or summer, with flowers lasting several days to weeks.</li>
+                    <li >Por Size: Available in various pot sizes to suit your preference and needs.</li>                   
                 </ul>
-                <h2>Description</h2>
+                <h2 className={styles.subtitle}>Description</h2>
                 <p className={styles.description}>Ladyfinger cactus (&#39;Echinocereus pentalophus&#39;) is also known as Alice, 
                     Devil&#39;s Finger, and Dog Tail.
                    It needs bright sunlinght, light fertilizer, and is prone to root rot.
