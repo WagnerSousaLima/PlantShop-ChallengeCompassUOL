@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
 
@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
    
-    padding: 2rem 4rem;
+    padding: 0 4rem;
 
     min-height: 100vh;
     min-width: 90vw;   
@@ -18,7 +18,7 @@
     min-width: 40vw;
     max-width: 35rem;
     height: auto;
-    clip-path: inset(20% 0% 18% 0%);
+    clip-path: inset(19% 0% 17% 0%);
     opacity: 0.9;    
 }
 
@@ -30,7 +30,7 @@
     margin-top: 0;    
 }
 
-h1{
+.title {
     font-family: EB Garamond;
     font-weight: 700;
     font-size: 3.2rem;
@@ -46,7 +46,7 @@ h1{
     color: #AFB2AA;
 }
 
-h2{
+.subtitle {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.12rem;
@@ -92,20 +92,21 @@ h2{
 }
 
 .button {     
-    padding: 1.125rem 3rem 1.125rem 3rem;
+    padding: 1rem 3rem 1rem 3rem;
     border: 1px solid #354733;
     background-color: #354733;
     box-shadow: 5px 5px 14px 0px #354733;
 
     max-width: 12rem;
     max-height: 3rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
     font-family: Raleway;
     font-weight: 400;
     font-size: 0.8rem;     
     align-items: center;
+    align-content: center;
     color: #F8F9FB;
 
     pointer-events: auto;
@@ -117,8 +118,9 @@ h2{
     font-size: 0.8rem;
     line-height: 1.23rem;
     align-items: center;
-    margin-left: 1.125rem;
+    margin-left: 1rem;
     color: #000000;
+    list-style-type: disc;
 }
 
 .description {

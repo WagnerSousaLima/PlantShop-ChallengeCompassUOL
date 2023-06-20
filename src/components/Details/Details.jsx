@@ -1,15 +1,11 @@
-// import React from 'react';
-import { plants } from '../../../server.json';
-import { useParams } from 'react-router-dom';
-import styles from './Details.module.css';
-// import { Link } from 'react-router-dom';
 
+
+// import React from 'react';
+
+import styles from './Details.module.css';
 
 const Details = () => {
-    const parametros = useParams();
-    const props = plants.find((plant) => plant.id === Number(parametros.id));
-    const discount = props.price - ((props.discountPercentage / 100) * props.price);
-    
+        
     const handleClick = () => {
         window.location.href = '/registration';
     }
@@ -21,6 +17,8 @@ const Details = () => {
                 className={styles.image}
             />
             <div className={styles.content}>
+             
+
                 <h1>{props.name}</h1>
                 <span className={styles.title_description}>{props.subtitle}</span>
                 {props.label.length > 1 ?
