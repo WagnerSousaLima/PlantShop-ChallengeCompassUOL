@@ -272,33 +272,33 @@
   "developers": [
     {
       "id": 1,
-      "name": "Amanda",
-      "discription": "Giovanna é uma profissional de TI com experiência em suporte e infraestrutura, atualmente participando do Programa de Bolsas da Compass Uol. Seu foco atual é aprimorar suas habilidades em front-end e crescer profissionalmente."
+      "name": "Amanda Nascimento",
+      "description": "Amanda Nascimento is an IT student passionate about front-end, cats and mostly weird movies."
     },
     {
       "id": 2,
-      "name": "Cintia",
-      "discription": ""
+      "name": "Cintia Simoni",
+      "description": "Is an IT student, more specifically in systemas analysis and development, passionate about technologyand food."
     },
     {
       "id": 3,
-      "name": "Eduardo",
-      "discription": ""
+      "name": "Eduardo L. F. Reis",
+      "description": "Eduardo L. F. Reis, electronics technician and studying systems analysis and development, passionate about technology, paragliding and plays the harmonica in his spare time."
     },
     {
       "id": 4,
-      "name": "Giovanna",
-      "discription": ""
+      "name": "Giovanna Castro",
+      "description": "Giovanna is an IT student, passionate about technology and especially front-end. In her spare time, she enjoys puzzle games and is addicted to coffee."
     },
     {
       "id": 5,
-      "name": "João",
-      "discription": ""
+      "name": "Nicacio Basílio",
+      "description": "Nicacio is a biologist and systems analyst and developer in training, passionate about difficult-to-solve problems."
     },
     {
       "id": 6,
-      "name": "Wagner",
-      "discription": ""
+      "name": "Wagner Augusto",
+      "description": "He loves technology and how it can transform people's lives. Because of this, he is a computing, science, innovation, and tech lover. He is studying to be the best software developer he can be."
     }
   ]
 }
