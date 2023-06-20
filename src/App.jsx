@@ -1,4 +1,27 @@
 import React from 'react';
+
+
+import {AllProducts} from './components/AllProducts/AllProducts'; 
+
+function App() {
+  const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
+
+  return (
+    <div>
+      <ClerkProvider
+        publishableKey={clerkPubKey}
+        appearance={{
+          baseTheme: neobrutalism,
+          elements: { formButtonPrimary: 'bg-green-500 hover:bg-green-600' }
+        }}
+      >
+        <AuthWrapper />
+      </ClerkProvider>
+      {/* Restante do conteúdo do aplicativo */}
+    </div>
+  );
+}
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ClerkProvider, useUser, RedirectToSignIn } from '@clerk/clerk-react';
 import { neobrutalism } from '@clerk/themes';
@@ -22,6 +45,8 @@ function AuthWrapper() {
       <>
         {/* Restante do conteúdo quando o usuário estiver logado */}
         <Header />
+
+        <AllProducts /> {/* Corrigido: renderizando o componente AllProducts */}
         <HomePage />
         <CarouselCards />
         <Footer />

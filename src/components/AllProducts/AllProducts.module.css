@@ -1,0 +1,59 @@
+.filterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: #F0F1EE;
+  
+}
+
+.filterButton {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.filterButton:hover:not(.selected) {
+  border-bottom: 2px solid #008000;
+}
+
+.filterButton.selected,
+.filterButton.hovered {
+  border-bottom: 2px solid #008000;
+}
+
+.filterButton.selected:hover {
+  border-bottom: 2px solid #006400;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  padding: 2rem;
+  background: #F0F1EE;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .filterContainer {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .filterButton {
+    margin-bottom: 0.5rem;
+  }
+
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+  }
+}
+
+
