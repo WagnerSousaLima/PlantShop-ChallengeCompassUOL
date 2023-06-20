@@ -1,275 +1,305 @@
 {"plants": [
-    {
-      "id": 1,
-      "name": "Echinocereus Cactus",
-      "subtitle": "A Majestic Addition to Your Plant Collection",
+  {
+    "id": 1,
+    "name": "Echinocereus Cactus",
+    "subtitle": "A Majestic Addition to Your Plant Collection",
+    "label": [
+      "indoor",
+      "cactus"
+    ],
+    "price": "139.99",
+    "isInSale": true,
+    "discountPercentage": 20,
+    "features": "Species: Echinocereus spp. Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height. Blooming Season: Typically spring or summer, with flowers lasting several days to weeks. Pot Size: Available in various pot sizes to suit your preference and needs. Shipping: Our Echinocereus Cacti are carefully packaged and shipped with the utmost care to ensure they arrive in excellent condition.",
+    "description": "Ladyfinger cactus (*Echinocereus pentalophus*) is also known as Alice, Devil's Fingers, and Dog Tail. It needs bright sunlight, light fertilizer, and is prone to root rot. The root system is shallow and weak. Aphids and mealybugs are also a danger. Avoiding wet soil can help with success with a ladyfinger cactus."
+   
+  },
+  {
+      "id": 2,
+      "name": "Pothos",
+      "subtitle": "Easy-Care Trailing Vine",
       "label": [
         "indoor",
-        "cactus"
+        "trailing"
       ],
-      "price": "139.99",
-      "isInSale": true,
-      "discountPercentage": 20,
-      "features": "Species: Echinocereus spp. Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height. Blooming Season: Typically spring or summer, with flowers lasting several days to weeks. Pot Size: Available in various pot sizes to suit your preference and needs. Shipping: Our Echinocereus Cacti are carefully packaged and shipped with the utmost care to ensure they arrive in excellent condition.",
-      "description": "Ladyfinger cactus (*Echinocereus pentalophus*) is also known as Alice, Devil's Fingers, and Dog Tail. It needs bright sunlight, light fertilizer, and is prone to root rot. The root system is shallow and weak. Aphids and mealybugs are also a danger. Avoiding wet soil can help with success with a ladyfinger cactus."
-     
+      "price": "19.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Low to medium light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Pothos plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Pothos (*Epipremnum aureum*) is a popular houseplant with heart-shaped leaves that come in various shades of green. It is known for its trailing growth habit and is perfect for hanging baskets or training on a trellis. Pothos is a low-maintenance plant that can tolerate a wide range of light conditions."
     },
     {
-        "id": 2,
-        "name": "Pothos",
-        "subtitle": "Easy-Care Trailing Vine",
-        "label": [
-          "indoor",
-          "trailing"
-        ],
-        "price": "$19.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Low to medium light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Pothos plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Pothos (*Epipremnum aureum*) is a popular houseplant with heart-shaped leaves that come in various shades of green. It is known for its trailing growth habit and is perfect for hanging baskets or training on a trellis. Pothos is a low-maintenance plant that can tolerate a wide range of light conditions."
-      },
-      {
-        "id": 3,
-        "name": "Snake Plant",
-        "subtitle": "Hardy and Air-Purifying",
-        "label": [
-          "indoor",
-          "air-purifying"
-        ],
-        "price": "$29.99",
-        "isInSale": true,
-        "discountPercentage": 10,
-        "features": "Light Requirements: Low to bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Snake Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Snake Plant (*Sansevieria*) is a popular choice for indoor spaces due to its adaptability and air-purifying qualities. It has long, upright leaves that are often variegated with shades of green, yellow, or white. Snake Plants are known for their resilience and can thrive in various light and watering conditions."
-      },
-      {
-        "id": 4,
-        "name": "Fiddle Leaf Fig",
-        "subtitle": "Trendy Indoor Tree",
-        "label": [
-          "indoor",
-          "tree"
-        ],
-        "price": "$79.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Fiddle Leaf Fig plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Fiddle Leaf Fig (*Ficus lyrata*) is a popular choice for those looking to add a touch of greenery and a statement piece to their indoor spaces. It has large, violin-shaped leaves with prominent veining. Fiddle Leaf Figs require a bright spot in your home and consistent care to thrive."
-      },    
-      {
-        "id": 5,
-        "name": "Monstera Deliciosa",
-        "subtitle": "The Swiss Cheese Plant",
-        "label": [
-          "indoor",
-          "climbing"
-        ],
-        "price": "$49.99",
-        "isInSale": true,
-        "discountPercentage": 15,
-        "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Monstera Deliciosa plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Monstera Deliciosa is a popular tropical plant with large, glossy, fenestrated leaves. It has a vining growth habit and can be trained to climb or kept in a pot with a moss pole. Monstera Deliciosa is a statement plant that adds a touch of exoticism to any indoor space."
-      },
-      {
-        "id": 6,
-        "name": "Spider Plant",
-        "subtitle": "Easy-Care Hanging Plant",
-        "label": [
-          "indoor",
-          "hanging"
-        ],
-        "price": "$14.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Medium to bright indirect light. Watering: Keep soil evenly moist, but not waterlogged. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Spider Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Spider Plant (*Chlorophytum comosum*) is a classic choice for hanging baskets or pots with cascading foliage. It has arching leaves that are typically green with white stripes. Spider Plants are known for their air-purifying qualities and ability to produce offshoots, called spiderettes."
-      },
-      {
-        "id": 7,
-        "name": "Aloe Vera",
-        "subtitle": "Soothing and Medicinal",
-        "label": [
-          "indoor",
-          "medicinal"
-        ],
-        "price": "$24.99",
-        "isInSale": true,
-        "discountPercentage": 10,
-        "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Aloe Vera plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Aloe Vera is a succulent plant known for its medicinal properties. It has thick, fleshy leaves that contain a gel-like substance used for various skincare and healing purposes. Aloe Vera plants are easy to care for and can thrive in sunny indoor locations."
-      },
-      {
-        "id": 8,
-        "name": "Peace Lily",
-        "subtitle": "Elegant and Air-Purifying",
-        "label": [
-          "indoor",
-          "flowering"
-        ],
-        "price": "$29.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Low to medium indirect light. Watering: Keep soil evenly moist, but not waterlogged. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Peace Lily plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Peace Lily (*Spathiphyllum*) is a popular choice for indoor plants due to its elegant white flowers and ability to purify the air. It has glossy, dark green leaves and thrives in low-light conditions. Peace Lilies are known for their adaptability and resilience."
-      },
-      {
-        "id": 9,
-        "name": "Rubber Tree",
-        "subtitle": "Bold Foliage for Statement Decor",
-        "label": [
-          "indoor",
-          "tree"
-        ],
-        "price": "$59.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Rubber Tree plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Rubber Tree (*Ficus elastica*) is a popular houseplant with large, glossy leaves that come in various shades of green or burgundy. It is a statement plant that adds a touch of drama to any room. Rubber Trees prefer bright, indirect light and regular watering."
-      },
-      {
-        "id": 10,
-        "name": "ZZ Plant",
-        "subtitle": "Low-Maintenance and Hardy",
-        "label": [
-          "indoor",
-          "low-maintenance"
-        ],
-        "price": "$39.99",
-        "isInSale": true,
-        "discountPercentage": 20,
-        "features": "Light Requirements: Low to bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our ZZ Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "ZZ Plant (*Zamioculcas zamiifolia*) is a popular choice for those seeking a low-maintenance plant. It has glossy, dark green leaves that grow in an upright manner. ZZ Plants can tolerate low light conditions and infrequent watering, making them perfect for busy individuals."
-      },
-      {
-        "id": 11,
-        "name": "Jade Plant",
-        "subtitle": "Symbol of Prosperity",
-        "label": [
-          "indoor",
-          "succulent"
-        ],
-        "price": "$19.99",
-        "isInSale": true,
-        "discountPercentage": 15,
-        "features": "Light Requirements: Bright direct light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Jade Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Jade Plant (*Crassula ovata*) is a popular succulent known for its fleshy, oval-shaped leaves. It is believed to bring good luck and prosperity to its owners. Jade Plants prefer bright light conditions and well-draining soil."
-      },
-      {
-        "id": 12,
-        "name": "Boston Fern",
-        "subtitle": "Lush and Air-Purifying",
-        "label": [
-          "indoor",
-          "hanging"
-        ],
-        "price": "$34.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Indirect light. Watering: Keep soil evenly moist. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Boston Ferns are carefully packaged and shipped to ensure they arrive in excellent condition.",
-        "description": "Boston Fern (*Nephrolepis exaltata*) is a classic choice for hanging baskets or as a tabletop plant. It has delicate, feathery fronds that create a lush and tropical appearance. Boston Ferns thrive in humid environments with bright, indirect light."
-      },
-      {
-        "id": 13,
-        "name": "Rose Bush",
-        "subtitle": "Classic Garden Beauty",
-        "label": [
-          "outdoor",
-          "flowering"
-        ],
-        "price": "$49.99",
-        "isInSale": true,
-        "discountPercentage": 10,
-        "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: Roses are typically planted in the ground. Shipping: Our Rose Bushes are carefully packaged and shipped as bare-root plants to ensure they arrive in excellent condition.",
-        "description": "Rose Bushes are beloved for their beautiful blooms and enchanting fragrance. They come in a variety of colors and are perfect for creating stunning flower beds or as focal points in garden landscapes. Roses require ample sunlight and regular care to thrive."
-      },
-      {
-        "id": 14,
-        "name": "Tomato Plant",
-        "subtitle": "Fresh Homegrown Tomatoes",
-        "label": [
-          "outdoor",
-          "vegetable"
-        ],
-        "price": "$9.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: 10-15 gallon (38-57 liters) container is recommended for patio cultivation. Shipping: Our Tomato Plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
-        "description": "Growing your own tomatoes is a rewarding experience. Tomato Plants produce juicy, flavorful fruits that are perfect for salads, sauces, and snacking. They thrive in sunny locations and require regular watering and proper support for their vines."
-      },
-      {
-        "id": 15,
-        "name": "Lavender",
-        "subtitle": "Fragrant Herb for the Garden",
-        "label": [
-          "outdoor",
-          "herb"
-        ],
-        "price": "$14.99",
-        "isInSale": true,
-        "discountPercentage": 20,
-        "features": "Light Requirements: Full sun. Watering: Allow soil to dry between waterings. Pot Size: Lavender is typically planted in the ground or in larger pots. Shipping: Our Lavender plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
-        "description": "Lavender is a versatile herb known for its soothing fragrance and beautiful purple flowers. It is often used in aromatherapy, culinary recipes, and as a natural insect repellent. Lavender plants thrive in well-drained soil and full sunlight."
-      },
-      {
-        "id": 16,
-        "name": "Sunflower",
-        "subtitle": "Bright and Cheerful Garden Addition",
-        "label": [
-          "outdoor",
-          "flowering"
-        ],
-        "price": "$6.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: Sunflowers are typically grown directly in the ground. Shipping: Our Sunflower seeds are carefully packaged and shipped with planting instructions to ensure they arrive in excellent condition.",
-        "description": "Sunflowers are iconic and bring a cheerful vibe to any garden. They have large, vibrant yellow flowers that follow the sun throughout the day. Sunflowers are easy to grow from seeds and thrive in sunny locations with well-drained soil."
-      },
-      {
-        "id": 17,
-        "name": "Butterfly Bush",
-        "subtitle": "Attract Butterflies to Your Garden",
-        "label": [
-          "outdoor",
-          "shrub"
-        ],
-        "price": "$24.99",
-        "isInSale": false,
-        "discountPercentage": 0,
-        "features": "Light Requirements: Full sun to partial shade. Watering: Keep soil evenly moist. Pot Size: Butterfly Bushes are typically planted in the ground. Shipping: Our Butterfly Bushes are carefully packaged and shipped as young plants to ensure they arrive in excellent condition.",
-        "description": "Butterfly Bush (*Buddleja*) is a beautiful flowering shrub that attracts butterflies and other pollinators to your garden. It produces long, cone-shaped clusters of colorful flowers that bloom from summer to fall. Butterfly Bushes prefer sunny spots with well-drained soil."
-      },
-      {
-        "id": 18,
-        "name": "Hydrangea",
-        "subtitle": "Elegant Blooms for Shady Gardens",
-        "label": [
-          "outdoor",
-          "shrub"
-        ],
-        "price": "$29.99",
-        "isInSale": true,
-        "discountPercentage": 15,
-        "features": "Light Requirements: Partial shade to full shade. Watering: Keep soil evenly moist. Pot Size: Hydrangeas are typically planted in the ground. Shipping: Our Hydrangeas are carefully packaged and shipped as young plants to ensure they arrive in excellent condition.",
-        "description": "Hydrangeas are known for their large, showy flower clusters and lush foliage. They come in various colors, including pink, blue, and white. Hydrangeas thrive in shaded areas and require regular watering to maintain their vibrant blooms."
-      },
-      {
-        "id": 19,
-        "name": "Peony",
-        "subtitle": "Romantic Blooms for the Garden",
-        "label": [
-          "outdoor",
-          "flowering"
-        ],
-        "price": "$39.99",
-        "isInSale": true,
-        "discountPercentage": 10,
-        "features": "Light Requirements: Full sun to partial shade. Watering: Keep soil evenly moist. Pot Size: Peonies are typically planted in the ground. Shipping: Our Peony plants are carefully packaged and shipped as bare-root plants to ensure they arrive in excellent condition.",
-        "description": "Peonies are prized for their large, fragrant blooms and romantic charm. They come in a variety of colors and are often used in floral arrangements. Peonies prefer well-drained soil and thrive in areas with cool winters and mild summers."
-      }    
+      "id": 3,
+      "name": "Snake Plant",
+      "subtitle": "Hardy and Air-Purifying",
+      "label": [
+        "indoor",
+        "air-purifying"
+      ],
+      "price": "29.99",
+      "isInSale": true,
+      "discountPercentage": 10,
+      "features": "Light Requirements: Low to bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Snake Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Snake Plant (*Sansevieria*) is a popular choice for indoor spaces due to its adaptability and air-purifying qualities. It has long, upright leaves that are often variegated with shades of green, yellow, or white. Snake Plants are known for their resilience and can thrive in various light and watering conditions."
+    },
+    {
+      "id": 4,
+      "name": "Fiddle Leaf Fig",
+      "subtitle": "Trendy Indoor Tree",
+      "label": [
+        "indoor",
+        "tree"
+      ],
+      "price": "79.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Fiddle Leaf Fig plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Fiddle Leaf Fig (*Ficus lyrata*) is a popular choice for those looking to add a touch of greenery and a statement piece to their indoor spaces. It has large, violin-shaped leaves with prominent veining. Fiddle Leaf Figs require a bright spot in your home and consistent care to thrive."
+    },    
+    {
+      "id": 5,
+      "name": "Monstera Deliciosa",
+      "subtitle": "The Swiss Cheese Plant",
+      "label": [
+        "indoor",
+        "climbing"
+      ],
+      "price": "49.99",
+      "isInSale": true,
+      "discountPercentage": 15,
+      "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Monstera Deliciosa plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Monstera Deliciosa is a popular tropical plant with large, glossy, fenestrated leaves. It has a vining growth habit and can be trained to climb or kept in a pot with a moss pole. Monstera Deliciosa is a statement plant that adds a touch of exoticism to any indoor space."
+    },
+    {
+      "id": 6,
+      "name": "Spider Plant",
+      "subtitle": "Easy-Care Hanging Plant",
+      "label": [
+        "indoor",
+        "hanging"
+      ],
+      "price": "14.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Medium to bright indirect light. Watering: Keep soil evenly moist, but not waterlogged. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Spider Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Spider Plant (*Chlorophytum comosum*) is a classic choice for hanging baskets or pots with cascading foliage. It has arching leaves that are typically green with white stripes. Spider Plants are known for their air-purifying qualities and ability to produce offshoots, called spiderettes."
+    },
+    {
+      "id": 7,
+      "name": "Aloe Vera",
+      "subtitle": "Soothing and Medicinal",
+      "label": [
+        "indoor",
+        "medicinal"
+      ],
+      "price": "24.99",
+      "isInSale": true,
+      "discountPercentage": 10,
+      "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Aloe Vera plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Aloe Vera is a succulent plant known for its medicinal properties. It has thick, fleshy leaves that contain a gel-like substance used for various skincare and healing purposes. Aloe Vera plants are easy to care for and can thrive in sunny indoor locations."
+    },
+    {
+      "id": 8,
+      "name": "Peace Lily",
+      "subtitle": "Elegant and Air-Purifying",
+      "label": [
+        "indoor",
+        "flowering"
+      ],
+      "price": "29.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Low to medium indirect light. Watering: Keep soil evenly moist, but not waterlogged. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our Peace Lily plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Peace Lily (*Spathiphyllum*) is a popular choice for indoor plants due to its elegant white flowers and ability to purify the air. It has glossy, dark green leaves and thrives in low-light conditions. Peace Lilies are known for their adaptability and resilience."
+    },
+    {
+      "id": 9,
+      "name": "Rubber Tree",
+      "subtitle": "Bold Foliage for Statement Decor",
+      "label": [
+        "indoor",
+        "tree"
+      ],
+      "price": "59.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Bright indirect light. Watering: Allow soil to dry partially between waterings. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Rubber Tree plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Rubber Tree (*Ficus elastica*) is a popular houseplant with large, glossy leaves that come in various shades of green or burgundy. It is a statement plant that adds a touch of drama to any room. Rubber Trees prefer bright, indirect light and regular watering."
+    },
+    {
+      "id": 10,
+      "name": "ZZ Plant",
+      "subtitle": "Low-Maintenance and Hardy",
+      "label": [
+        "indoor",
+        "low-maintenance"
+      ],
+      "price": "39.99",
+      "isInSale": true,
+      "discountPercentage": 20,
+      "features": "Light Requirements: Low to bright indirect light. Watering: Allow soil to dry between waterings. Pot Size: 8 inches (20 cm) is recommended. Shipping: Our ZZ Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "ZZ Plant (*Zamioculcas zamiifolia*) is a popular choice for those seeking a low-maintenance plant. It has glossy, dark green leaves that grow in an upright manner. ZZ Plants can tolerate low light conditions and infrequent watering, making them perfect for busy individuals."
+    },
+    {
+      "id": 11,
+      "name": "Jade Plant",
+      "subtitle": "Symbol of Prosperity",
+      "label": [
+        "indoor",
+        "succulent"
+      ],
+      "price": "19.99",
+      "isInSale": true,
+      "discountPercentage": 15,
+      "features": "Light Requirements: Bright direct light. Watering: Allow soil to dry between waterings. Pot Size: 6 inches (15 cm) is recommended. Shipping: Our Jade Plants are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Jade Plant (*Crassula ovata*) is a popular succulent known for its fleshy, oval-shaped leaves. It is believed to bring good luck and prosperity to its owners. Jade Plants prefer bright light conditions and well-draining soil."
+    },
+    {
+      "id": 12,
+      "name": "Boston Fern",
+      "subtitle": "Lush and Air-Purifying",
+      "label": [
+        "indoor",
+        "hanging"
+      ],
+      "price": "34.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Indirect light. Watering: Keep soil evenly moist. Pot Size: 10 inches (25 cm) is recommended. Shipping: Our Boston Ferns are carefully packaged and shipped to ensure they arrive in excellent condition.",
+      "description": "Boston Fern (*Nephrolepis exaltata*) is a classic choice for hanging baskets or as a tabletop plant. It has delicate, feathery fronds that create a lush and tropical appearance. Boston Ferns thrive in humid environments with bright, indirect light."
+    },
+    {
+      "id": 13,
+      "name": "Rose Bush",
+      "subtitle": "Classic Garden Beauty",
+      "label": [
+        "outdoor",
+        "flowering"
+      ],
+      "price": "49.99",
+      "isInSale": true,
+      "discountPercentage": 10,
+      "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: Roses are typically planted in the ground. Shipping: Our Rose Bushes are carefully packaged and shipped as bare-root plants to ensure they arrive in excellent condition.",
+      "description": "Rose Bushes are beloved for their beautiful blooms and enchanting fragrance. They come in a variety of colors and are perfect for creating stunning flower beds or as focal points in garden landscapes. Roses require ample sunlight and regular care to thrive."
+    },
+    {
+      "id": 14,
+      "name": "Tomato Plant",
+      "subtitle": "Fresh Homegrown Tomatoes",
+      "label": [
+        "outdoor",
+        "vegetable"
+      ],
+      "price": "9.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: 10-15 gallon (38-57 liters) container is recommended for patio cultivation. Shipping: Our Tomato Plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
+      "description": "Growing your own tomatoes is a rewarding experience. Tomato Plants produce juicy, flavorful fruits that are perfect for salads, sauces, and snacking. They thrive in sunny locations and require regular watering and proper support for their vines."
+    },
+    {
+      "id": 15,
+      "name": "Lavender",
+      "subtitle": "Fragrant Herb for the Garden",
+      "label": [
+        "outdoor",
+        "herb"
+      ],
+      "price": "14.99",
+      "isInSale": true,
+      "discountPercentage": 20,
+      "features": "Light Requirements: Full sun. Watering: Allow soil to dry between waterings. Pot Size: Lavender is typically planted in the ground or in larger pots. Shipping: Our Lavender plants are carefully packaged and shipped as young seedlings to ensure they arrive in excellent condition.",
+      "description": "Lavender is a versatile herb known for its soothing fragrance and beautiful purple flowers. It is often used in aromatherapy, culinary recipes, and as a natural insect repellent. Lavender plants thrive in well-drained soil and full sunlight."
+    },
+    {
+      "id": 16,
+      "name": "Sunflower",
+      "subtitle": "Bright and Cheerful Garden Addition",
+      "label": [
+        "outdoor",
+        "flowering"
+      ],
+      "price": "6.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Full sun. Watering: Keep soil evenly moist. Pot Size: Sunflowers are typically grown directly in the ground. Shipping: Our Sunflower seeds are carefully packaged and shipped with planting instructions to ensure they arrive in excellent condition.",
+      "description": "Sunflowers are iconic and bring a cheerful vibe to any garden. They have large, vibrant yellow flowers that follow the sun throughout the day. Sunflowers are easy to grow from seeds and thrive in sunny locations with well-drained soil."
+    },
+    {
+      "id": 17,
+      "name": "Butterfly Bush",
+      "subtitle": "Attract Butterflies to Your Garden",
+      "label": [
+        "outdoor",
+        "shrub"
+      ],
+      "price": "24.99",
+      "isInSale": false,
+      "discountPercentage": 0,
+      "features": "Light Requirements: Full sun to partial shade. Watering: Keep soil evenly moist. Pot Size: Butterfly Bushes are typically planted in the ground. Shipping: Our Butterfly Bushes are carefully packaged and shipped as young plants to ensure they arrive in excellent condition.",
+      "description": "Butterfly Bush (*Buddleja*) is a beautiful flowering shrub that attracts butterflies and other pollinators to your garden. It produces long, cone-shaped clusters of colorful flowers that bloom from summer to fall. Butterfly Bushes prefer sunny spots with well-drained soil."
+    },
+    {
+      "id": 18,
+      "name": "Hydrangea",
+      "subtitle": "Elegant Blooms for Shady Gardens",
+      "label": [
+        "outdoor",
+        "shrub"
+      ],
+      "price": "29.99",
+      "isInSale": true,
+      "discountPercentage": 15,
+      "features": "Light Requirements: Partial shade to full shade. Watering: Keep soil evenly moist. Pot Size: Hydrangeas are typically planted in the ground. Shipping: Our Hydrangeas are carefully packaged and shipped as young plants to ensure they arrive in excellent condition.",
+      "description": "Hydrangeas are known for their large, showy flower clusters and lush foliage. They come in various colors, including pink, blue, and white. Hydrangeas thrive in shaded areas and require regular watering to maintain their vibrant blooms."
+    },
+    {
+      "id": 19,
+      "name": "Peony",
+      "subtitle": "Romantic Blooms for the Garden",
+      "label": [
+        "outdoor",
+        "flowering"
+      ],
+      "price": "39.99",
+      "isInSale": true,
+      "discountPercentage": 10,
+      "features": "Light Requirements: Full sun to partial shade. Watering: Keep soil evenly moist. Pot Size: Peonies are typically planted in the ground. Shipping: Our Peony plants are carefully packaged and shipped as bare-root plants to ensure they arrive in excellent condition.",
+      "description": "Peonies are prized for their large, fragrant blooms and romantic charm. They come in a variety of colors and are often used in floral arrangements. Peonies prefer well-drained soil and thrive in areas with cool winters and mild summers."
+    }    
 
-  ]
+],
+
+"developers": [
+  {
+    "id": 1,
+    "name": "Amanda",
+    "discription": "Giovanna é uma profissional de TI com experiência em suporte e infraestrutura, atualmente participando do Programa de Bolsas da Compass Uol. Seu foco atual é aprimorar suas habilidades em front-end e crescer profissionalmente."
+  },
+  {
+    "id": 2,
+    "name": "Cintia",
+    "discription": ""
+  },
+  {
+    "id": 3,
+    "name": "Eduardo",
+    "discription": ""
+  },
+  {
+    "id": 4,
+    "name": "Giovanna",
+    "discription": ""
+  },
+  {
+    "id": 5,
+    "name": "João",
+    "discription": ""
+  },
+  {
+    "id": 6,
+    "name": "Wagner",
+    "discription": ""
+  }
+]
 }
 
-
-   
- 
