@@ -9,6 +9,16 @@
   gap: 4rem;
 }
 
+.titleItem h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  font-family: var(--font-principal);
+  font-weight: 700;
+  font-size: 4rem;
+  color: var(--green-700);
+  line-height: normal;
+}
+
 /* Grid rows and columns */
 
 .titleItem {
@@ -63,9 +73,18 @@
   color: var(--green-200);
 }
 
-h3 {
+.wateringIcon,
+.sunlightIcon,
+.nutrientsIcon {
+  display: inline;
+}
+
+.firstStep h3,
+.secondStep h3,
+.thirdStep h3 {
   margin-top: 1em;
   font-size: 1.5rem;
+  font-weight: 700;
   font-family: var(--font-secondary);
 }
 
@@ -85,6 +104,7 @@ h3 {
 .websiteInfo p {
   margin: 1rem 0 2rem 0;
   color: var(--green-300);
+  text-align: justify;
 }
 
 .seeMoreButton {
@@ -122,4 +142,29 @@ h3 {
 
 .seeMoreButton:hover {
   color: var(--green-700);
+}
+
+@media only screen and (max-width: 768px) {
+  .firstImg,
+  .secondImg {
+    width: 100%;
+    height: 50%;
+  }
+  .moreInfo {
+    padding: 1rem;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .moreInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  .websiteInfo {
+    display: flex;
+    flex-direction: column;
+  }
 }

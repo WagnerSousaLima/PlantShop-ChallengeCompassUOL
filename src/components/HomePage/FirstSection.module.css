@@ -2,7 +2,7 @@
 
 .homeMain {
     display: flex;
-    background-color: var(--green-100);
+    background-color: #F0F1EE;
     width: 100%;
     justify-content: space-between;
     background-image: url(/src/components/HomePage/Images/left\ plant.png);
@@ -24,8 +24,7 @@
     filter: grayscale(100%);
   }
   
-  h1,
-  h2 {
+  .homeMainText h1 {
     text-transform: capitalize;
     margin-bottom: 1rem;
     font-family: var(--font-principal);
@@ -91,7 +90,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--green-100);
+    background-color: #F0F1EE;
     transform: translate(-110%, 0) skew(0deg);
     transition: 0.7s;
   }
@@ -120,4 +119,38 @@
   .backgroundImage img:hover {
     filter: none;
     transition: 0.7s ease-in-out;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .backgroundImage {
+      width: 100vw;
+    }
+    .homeMainText {
+      align-items: normal;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .homeMain {
+      background-image: none;
+    }
+    .subtitle {
+      justify-content: center;
+    }
+    .homeMainText {
+      align-items: normal;
+      padding: 1rem;
+      text-align: center;
+    }
+    .mainContent {
+      max-width: 100%;
+      align-items: center;
+    }
+    .backgroundImage {
+      display: none;
+    }
+    .learnGardening {
+      padding: 1rem;
+      margin: 0;
+    }
   }
