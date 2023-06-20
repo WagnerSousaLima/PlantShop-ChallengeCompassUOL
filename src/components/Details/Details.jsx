@@ -1,10 +1,15 @@
 // import React from 'react';
-
+import { plants } from '../../../server.json';
+import { useParams } from 'react-router-dom';
 import styles from './Details.module.css';
 // import { Link } from 'react-router-dom';
 
 
 const Details = () => {
+    const parametros = useParams();
+    const props = plants.find((plant) => plant.id === Number(parametros.id));
+    const discount = props.price - ((props.discountPercentage / 100) * props.price);
+    
     const handleClick = () => {
         window.location.href = '/registration';
     }
@@ -16,31 +21,33 @@ const Details = () => {
                 className={styles.image}
             />
             <div className={styles.content}>
-                <h1>Echinocereus Cactus</h1>
-                <span className={styles.title_description}>A Majestic Addition to Your Plant Collection</span>
-                <div className={styles.tags}>
-                    <p className={styles.tag}>indoor</p>
-                    <p className={styles.tag}>cactus</p>
-                </div>
-                <p className={styles.price}>$139.99</p>
+                <h1>{props.name}</h1>
+                <span className={styles.title_description}>{props.subtitle}</span>
+                {props.label.length > 1 ?
+                    <div className={styles.tags}>
+                        <p className={styles.tag}>{props.label[0]}</p>
+                        <p className={styles.tag}>{props.label[1]}</p>
+                    </div> 
+                : <div className={styles.tags}>
+                    <p className={styles.tag}>{props.label[0]}</p>
+                </div> 
+                }
+                {props.discountPercentage > 0 ? 
+                    <div>
+                        <p className={styles.price}>${discount.toFixed(2)}</p>
+                        <p className={styles.price}>${props.price}</p>
+                    </div>
+                    : <span className={styles.price}>${props.price}</span>
+                }                
                 {/* <Link to="../Registration/PlantRegistration.jsx"> */}
                     <button onClick={handleClick} className={styles.button}>Check out</button>
                 {/* </Link> */}
                 <h2>Features</h2>
                 <ul className={styles.features}>
-                    <li>Species: Echinocereus spp.</li>
-                    <li>Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height.</li>
-                    <li>Blooming Season: Typically spring or summer, with flowers lasting several days to weeks.</li>
-                    <li>Por Size: Available in various pot sizes to suit your preference and needs.</li>                   
+                    <li>{props.features}</li>           
                 </ul>
                 <h2>Description</h2>
-                <p className={styles.description}>Ladyfinger cactus (&#39;Echinocereus pentalophus&#39;) is also known as Alice, 
-                    Devil&#39;s Finger, and Dog Tail.
-                   It needs bright sunlinght, light fertilizer, and is prone to root rot.
-                   The root system is shallow and weak.
-                   Aphids and mealybus are also a danger.
-                   Avoiding wet soil can help with success with a ladyginer cactus. 
-                </p>                
+                <p className={styles.description}>{props.description}</p>                
             </div>
         </div>
 
