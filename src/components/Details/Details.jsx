@@ -1,6 +1,11 @@
+
+
+// import React from 'react';
+
 import styles from './Details.module.css';
 
 const Details = () => {
+        
     const handleClick = () => {
         window.location.href = '/registration';
     }
@@ -12,29 +17,35 @@ const Details = () => {
                 className={styles.image}
             />
             <div className={styles.content}>
-                <h1 className={styles.title}>Echinocereus Cactus</h1>
-                <span className={styles.title_description}>A Majestic Addition to Your Plant Collection</span>
-                <div className={styles.tags}>
-                    <p className={styles.tag}>indoor</p>
-                    <p className={styles.tag}>cactus</p>
-                </div>
-                <p className={styles.price}>$139.99</p>
-                <button onClick={handleClick} className={styles.button}>Check out</button>
-                <h2 className={styles.subtitle}>Features</h2>
+             
+
+                <h1>{props.name}</h1>
+                <span className={styles.title_description}>{props.subtitle}</span>
+                {props.label.length > 1 ?
+                    <div className={styles.tags}>
+                        <p className={styles.tag}>{props.label[0]}</p>
+                        <p className={styles.tag}>{props.label[1]}</p>
+                    </div> 
+                : <div className={styles.tags}>
+                    <p className={styles.tag}>{props.label[0]}</p>
+                </div> 
+                }
+                {props.discountPercentage > 0 ? 
+                    <div>
+                        <p className={styles.price}>${discount.toFixed(2)}</p>
+                        <p className={styles.price}>${props.price}</p>
+                    </div>
+                    : <span className={styles.price}>${props.price}</span>
+                }                
+                {/* <Link to="../Registration/PlantRegistration.jsx"> */}
+                    <button onClick={handleClick} className={styles.button}>Check out</button>
+                {/* </Link> */}
+                <h2>Features</h2>
                 <ul className={styles.features}>
-                    <li className={styles.features}>Species: Echinocereus spp.</li>
-                    <li className={styles.features}>Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height.</li>
-                    <li className={styles.features}>Blooming Season: Typically spring or summer, with flowers lasting several days to weeks.</li>
-                    <li className={styles.features}>Por Size: Available in various pot sizes to suit your preference and needs.</li>                   
+                    <li>{props.features}</li>           
                 </ul>
-                <h2 className={styles.subtitle}>Description</h2>
-                <p className={styles.description}>Ladyfinger cactus (&#39;Echinocereus pentalophus&#39;) is also known as Alice, 
-                    Devil&#39;s Finger, and Dog Tail.
-                   It needs bright sunlinght, light fertilizer, and is prone to root rot.
-                   The root system is shallow and weak.
-                   Aphids and mealybus are also a danger.
-                   Avoiding wet soil can help with success with a ladyginer cactus. 
-                </p>                
+                <h2>Description</h2>
+                <p className={styles.description}>{props.description}</p>                
             </div>
         </div>
 
