@@ -1,37 +1,18 @@
-import React from 'react';
+import React from "react";
+import "./global.css";
 
+import { AllProducts } from "./components/AllProducts/AllProducts";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ClerkProvider, useUser, RedirectToSignIn } from "@clerk/clerk-react";
+import { neobrutalism } from "@clerk/themes";
 
-import {AllProducts} from './components/AllProducts/AllProducts'; 
-
-function App() {
-  const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
-
-  return (
-    <div>
-      <ClerkProvider
-        publishableKey={clerkPubKey}
-        appearance={{
-          baseTheme: neobrutalism,
-          elements: { formButtonPrimary: 'bg-green-500 hover:bg-green-600' }
-        }}
-      >
-        <AuthWrapper />
-      </ClerkProvider>
-      {/* Restante do conteúdo do aplicativo */}
-    </div>
-  );
-}
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ClerkProvider, useUser, RedirectToSignIn } from '@clerk/clerk-react';
-import { neobrutalism } from '@clerk/themes';
-import './global.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import CarouselCards from './components/HomeCarousel/CarouselCards';
-import PlantRegistration from './components/Registration/PlantRegistration';
-import HomePage from './components/HomePage/Home';
-import Details from './components/Details/Details';
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import CarouselCards from "./components/HomeCarousel/CarouselCards";
+import PlantRegistration from "./components/Registration/PlantRegistration";
+import HomePage from "./components/HomePage/Home";
+import Details from "./components/Details/Details";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function AuthWrapper() {
   const { user, isLoading } = useUser();
@@ -45,7 +26,6 @@ function AuthWrapper() {
       <>
         {/* Restante do conteúdo quando o usuário estiver logado */}
         <Header />
-
         <AllProducts /> {/* Corrigido: renderizando o componente AllProducts */}
         <HomePage />
         <CarouselCards />
@@ -59,7 +39,7 @@ function AuthWrapper() {
 
 const Home = () => {
   if (!import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY) {
-    throw new Error('Missing Publishable Key');
+    throw new Error("Missing Publishable Key");
   }
 
   return <AuthWrapper />;
@@ -79,18 +59,17 @@ const Registration = () => {
   return (
     <>
       <Header />
-      <h1>Aqui fica o forms</h1>
+      <PlantRegistration />
       <Footer />
     </>
   );
 };
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
     <>
       <Header />
-      <h1>About Us Page</h1>
-      {/* Restante do conteúdo da página */}
+      <AboutUs />
       <Footer />
     </>
   );
@@ -104,7 +83,7 @@ function App() {
         publishableKey={clerkPubKey}
         appearance={{
           baseTheme: neobrutalism,
-          elements: { formButtonPrimary: 'bg-green-500 hover:bg-green-600' },
+          elements: { formButtonPrimary: "bg-green-500 hover:bg-green-600" },
         }}
       >
         <Router>
@@ -112,7 +91,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Product/:id" element={<Product />} />
             <Route path="/registration" element={<Registration />} />
-            <Route path="/about-us" element={<AboutUs />} /> {/* Nova rota para About Us */}
+            <Route path="/about-us" element={<AboutUsPage />} />{" "}
+            {/* Nova rota para About Us */}
           </Routes>
         </Router>
       </ClerkProvider>
