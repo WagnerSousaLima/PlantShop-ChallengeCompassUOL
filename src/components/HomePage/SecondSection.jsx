@@ -21,7 +21,7 @@ const SecondSection = () => {
         </p>
       </span>
       <div className={classes.firstStep}>
-        <img src={wateringIcon} />
+        <img src={wateringIcon} className={classes.wateringIcon} />
         <h3>Watering</h3>
         <p>
           Water your plants when the top inch of soil feels dry to the touch.
@@ -29,7 +29,7 @@ const SecondSection = () => {
         </p>
       </div>
       <div className={classes.secondStep}>
-        <img src={sunlightIcon} />
+        <img src={sunlightIcon} className={classes.sunlightIcon} />
         <h3>Sunlight</h3>
         <p>
           Most plants need adequate sunlight to thrive. Place your plants in
@@ -38,7 +38,7 @@ const SecondSection = () => {
         </p>
       </div>
       <div className={classes.thirdStep}>
-        <img src={nutrientsIcon} />
+        <img src={nutrientsIcon} className={classes.nutrientsIcon} />
         <h3>Nutrients and Fertilizing</h3>
         <p>
           Choose a suitable fertilizer based on the specific needs of your
