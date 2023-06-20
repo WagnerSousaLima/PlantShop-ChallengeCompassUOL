@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import styles from './Details.module.css';
 
 const Details = () => {
@@ -20,15 +19,13 @@ const Details = () => {
                     <p className={styles.tag}>cactus</p>
                 </div>
                 <p className={styles.price}>$139.99</p>
-                {/* <Link to="../Registration/PlantRegistration.jsx"> */}
-                    <button onClick={handleClick} className={styles.button}>Check out</button>
-                {/* </Link> */}
+                <button onClick={handleClick} className={styles.button}>Check out</button>
                 <h2 className={styles.subtitle}>Features</h2>
                 <ul className={styles.features}>
                     <li className={styles.features}>Species: Echinocereus spp.</li>
                     <li className={styles.features}>Mature Size: Varies by species, typically ranging from 4 to 12 inches (10-30 cm) in height.</li>
                     <li className={styles.features}>Blooming Season: Typically spring or summer, with flowers lasting several days to weeks.</li>
-                    <li >Por Size: Available in various pot sizes to suit your preference and needs.</li>                   
+                    <li className={styles.features}>Por Size: Available in various pot sizes to suit your preference and needs.</li>                   
                 </ul>
                 <h2 className={styles.subtitle}>Description</h2>
                 <p className={styles.description}>Ladyfinger cactus (&#39;Echinocereus pentalophus&#39;) is also known as Alice, 

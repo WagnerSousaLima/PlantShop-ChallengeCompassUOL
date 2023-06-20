@@ -18,7 +18,7 @@
     min-width: 40vw;
     max-width: 35rem;
     height: auto;
-    clip-path: inset(20% 0% 18% 0%);
+    clip-path: inset(19% 0% 17% 0%);
     opacity: 0.9;    
 }
 
@@ -92,7 +92,7 @@
 }
 
 .button {     
-    padding: 1.125rem 3rem 1.125rem 3rem;
+    padding: 1rem 3rem 1rem 3rem;
     border: 1px solid #354733;
     background-color: #354733;
     box-shadow: 5px 5px 14px 0px #354733;
@@ -120,7 +120,7 @@
     align-items: center;
     margin-left: 1rem;
     color: #000000;
-    list-style-type:circle;
+    list-style-type: disc;
 }
 
 .description {
