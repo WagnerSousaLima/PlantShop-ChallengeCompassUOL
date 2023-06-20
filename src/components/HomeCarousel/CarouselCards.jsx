@@ -33,6 +33,7 @@ const CarouselCards = () => {
                     {noDiscountPlants.map((plant) => (
                         <SplideSlide key={plant.id}>
                             <CardPlant
+                                id={plant.id}
                                 name={plant.name}
                                 price={plant.price}
                                 label={plant.label}
@@ -55,6 +56,7 @@ const CarouselCards = () => {
                     {discountPlants.map((plant) => (
                         <SplideSlide key={plant.id}>
                             <CardPlant
+                                id={plant.id}
                                 name={plant.name}
                                 price={plant.price}
                                 discount={plant.discountPercentage}

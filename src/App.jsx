@@ -85,7 +85,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/product" element={<Product />} />
+            <Route path="/Product/:id" element={<Product />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/about-us" element={<AboutUs />} /> {/* Nova rota para About Us */}
           </Routes>
