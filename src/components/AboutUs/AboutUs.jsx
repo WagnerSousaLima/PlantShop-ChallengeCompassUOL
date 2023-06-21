@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./AboutUs.module.css";
-import Logo from "./images/linkedin.svg";
+import LogoLinkedin from "./images/linkedin.svg";
+import LogoGithub from "./images/github 1.svg";
 import Plant from "./images/left plant.svg";
 import { api } from '../../Services/api';
 
@@ -42,11 +43,18 @@ const AboutUs = () => {
                 <div className={styles.block} />
                 <div className={styles.blockGreen} />
                 <div className={styles.rest}>
-                    <h3 className={styles.name}>{developer.name}</h3>
-                    <p className={styles.description}>{developer.description}</p>
-                    <a className={styles.Logo} href={developer.github} target="_blank">
-                        <img className={styles.Logo} src={Logo} alt="logoLinkedin" />
-                    </a>
+                    <div className={styles.firstblock}>
+                        <h3 className={styles.name}>{developer.name}</h3>
+                        <p className={styles.description}>{developer.description}</p>
+                    </div> 
+                    <div className={styles.Logos}>
+                        <a className={styles.Logo} href={developer.github} target="_blank">
+                            <img className={styles.Logo} src={LogoGithub} alt="logoGitHub" />
+                        </a>
+                        <a className={styles.Logo} href={developer.linkedin} target="_blank">
+                            <img className={styles.Logo} src={LogoLinkedin} alt="logoLinkedin" />
+                        </a>
+                    </div>
                     <img className={styles.Photo} src={developer.photo} />
                 </div>
             </div>

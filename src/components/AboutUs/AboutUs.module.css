@@ -59,7 +59,7 @@
 
 .Body {
     margin-top: 4rem;
-    width: 100vw;
+    width: 90vw;
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 4rem;
@@ -125,15 +125,21 @@
     border-radius: 0 0 20px 20px;
 }
 
+.firstblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 3.5rem;    
+}
+
 .name {
     font-family: EB Garamond;
     font-size: 700;
     font-size: 2rem;
     line-height: 2.5rem;
     color: #354733;
-
-    padding: 1rem;
-    margin-top: 3.5rem;
+       
 }
 
 .description {
@@ -143,19 +149,21 @@
     line-height: 1.125rem;
     color: #808276;
     text-align: center;
+    margin-top: 1rem;
 
-    margin-bottom: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 
+.Logos {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+    
 .Logo{
-    position: absolute;
-    bottom: -50%;
-    left: 50%;
-    transform: translate(-50%); 
-    
+    margin-right: 0.5rem;   
+    margin-left: 0.5rem;  
     width: 2.5rem;
-    height: 2.5rem;
-    
+    height: 2.5rem;    
 }
