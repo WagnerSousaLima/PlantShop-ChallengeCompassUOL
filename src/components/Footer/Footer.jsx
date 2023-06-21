@@ -24,13 +24,13 @@ const Footer = (props) => {
           <div className={styles.links}>
             <h2>Links</h2>
             <Link to="/about-us">About us</Link>
-            <Link to="/products">Products</Link>
+            <Link to="/product">Products</Link>
             <a href="#">Blogs</a>
           </div>
           <div className={styles.community}>
             <h2>Community</h2>
             <Link to="/about-us">About us</Link>
-            <Link to="/products">Products</Link>
+            <Link to="/product">Products</Link>
             <a href="#">Blogs</a>
           </div>
         </div>
