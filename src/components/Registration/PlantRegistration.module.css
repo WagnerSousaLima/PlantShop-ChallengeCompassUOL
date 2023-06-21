@@ -96,6 +96,10 @@
   border-radius: 0.3rem;
 }
 
+.registerButton:hover {
+  background-color: #2fbd6a !important;
+}
+
 @media only screen and (max-width: 768px) {
   .formImage {
     display: none;
