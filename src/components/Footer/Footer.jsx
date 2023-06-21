@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer = (props) => {
   return (
@@ -16,20 +17,20 @@ const Footer = (props) => {
       <div className={styles.top}>
         <div className={styles.main}>
           <h1>Stay Fresh</h1>
-          <a href="#">compassinhos@gmail.com</a>
-          <a href="#">+55 41 99999-9999</a>
+          <a href="mailto:compassinhos@gmail.com">compassinhos@gmail.com</a>
+          <a href="tel:+5541999999999">+55 41 99999-9999</a>
         </div>
         <div className={styles.aside}>
           <div className={styles.links}>
             <h2>Links</h2>
-            <a href="#">About us</a>
-            <a href="#">Products</a>
+            <Link to="/about-us">About us</Link>
+            <Link to="/products">Products</Link>
             <a href="#">Blogs</a>
           </div>
           <div className={styles.community}>
             <h2>Community</h2>
-            <a href="#">About us</a>
-            <a href="#">Products</a>
+            <Link to="/about-us">About us</Link>
+            <Link to="/products">Products</Link>
             <a href="#">Blogs</a>
           </div>
         </div>
@@ -39,7 +40,7 @@ const Footer = (props) => {
         <p>Compassinhos &copy;. All rights reserved.</p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;
