@@ -45,6 +45,7 @@
   border-width: 0.1rem;
   padding: 0.7rem;
   border-radius: 0.3rem;
+  resize: none;
 }
 
 .formPrice {

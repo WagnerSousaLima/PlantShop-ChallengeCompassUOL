@@ -41,6 +41,7 @@ function PlantRegistration() {
         <div className={styles.formTextInput}>
           <label htmlFor="Label">Features:</label>
           <textarea
+            rows="4"
             className={styles.formFeaturesInput}
             type="text"
             id="feature"
@@ -49,6 +50,7 @@ function PlantRegistration() {
 
           <label htmlFor="Label">Description:</label>
           <textarea
+            rows="4"
             className={styles.formDescriptionInput}
             type="text"
             id="description"
