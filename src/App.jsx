@@ -28,7 +28,6 @@ function AuthWrapper() {
       <>
         {/* Restante do conteúdo quando o usuário estiver logado */}
         <Header />
-        <AllProducts /> {/* Corrigido: renderizando o componente AllProducts */}
         <HomePage />
         <CarouselCards />
         <Footer />
@@ -60,7 +59,9 @@ const Product = () => {
 const Registration = () => {
   return (
     <>
+      <Header/>
       <PlantRegistration />
+      <Footer />
     </>
   );
 };
