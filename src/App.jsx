@@ -5,6 +5,8 @@ import { AllProducts } from "./components/AllProducts/AllProducts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ClerkProvider, useUser, RedirectToSignIn } from "@clerk/clerk-react";
 import { neobrutalism } from "@clerk/themes";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -57,7 +59,10 @@ const Product = () => {
 const Registration = () => {
   return (
     <>
-      <Header />
+
+
+      <Header/>
+ 
       <PlantRegistration />
       <Footer />
     </>
@@ -105,6 +110,7 @@ function App() {
           </Routes>
         </Router>
       </ClerkProvider>
+      <ToastContainer />
     </div>
   );
 }

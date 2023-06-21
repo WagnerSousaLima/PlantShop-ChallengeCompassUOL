@@ -1,9 +1,26 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./PlantRegistration.module.css";
 import imageForm from "./imgs/image_Form.png";
+import { toast } from "react-toastify";
 
 function PlantRegistration() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Lógica de processamento do formulário...
+
+    toast.success("The new plant has been registered", {
+      position: toast.POSITION.TOP_CENTER,
+      autoClose: 3000,
+    });
+
+    navigate("/"); 
+  };
+
   return (
-    <div className={styles.regContainer}>
+    <div className={styles.regContainer} onSubmit={handleSubmit}>
       <form className={styles.formContainer}>
         <span className={styles.formTitle}>
           <h1>
@@ -41,6 +58,7 @@ function PlantRegistration() {
         <div className={styles.formTextInput}>
           <label htmlFor="Label">Features:</label>
           <textarea
+            rows="4"
             className={styles.formFeaturesInput}
             type="text"
             id="feature"
@@ -49,6 +67,7 @@ function PlantRegistration() {
 
           <label htmlFor="Label">Description:</label>
           <textarea
+            rows="4"
             className={styles.formDescriptionInput}
             type="text"
             id="description"
@@ -70,6 +89,6 @@ function PlantRegistration() {
       </span>
     </div>
   );
-}
+};
 
 export default PlantRegistration;
