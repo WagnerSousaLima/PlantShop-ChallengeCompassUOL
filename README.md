@@ -45,6 +45,7 @@
 - Renderizar todas as plantas cadastradas em uma página
 - Usar Next.js em substituição ao React
 
+    ### [Check out our progress tracker and reports on Notion!](https://adventurous-tire-5e0.notion.site/Second-Challenge-Compass-UOL-2d356ea0a309466baced3cc66cde7364)
   <p align="center">
     <img width="1024" heigth="500" src="/public/images/desafioII.gif">
   </p>
