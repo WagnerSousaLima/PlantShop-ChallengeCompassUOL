@@ -49,7 +49,7 @@ const Product = () => {
   return (
     <>
       <Header />
-      <Details />
+      <AllProducts/>
       <Footer />
     </>
   );
@@ -87,6 +87,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Product" element={<Product />} />
             <Route path="/Product/:id" element={<Product />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/about-us" element={<AboutUsPage />} />{" "}
