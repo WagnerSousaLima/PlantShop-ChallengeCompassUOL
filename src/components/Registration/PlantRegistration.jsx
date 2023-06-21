@@ -1,9 +1,20 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./PlantRegistration.module.css";
 import imageForm from "./imgs/image_Form.png";
 
 function PlantRegistration() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Lógica de processamento do formulário...
+
+    navigate("/"); 
+  };
+
   return (
-    <div className={styles.regContainer}>
+    <div className={styles.regContainer} onSubmit={handleSubmit}>
       <form className={styles.formContainer}>
         <span className={styles.formTitle}>
           <h1>
@@ -70,6 +81,6 @@ function PlantRegistration() {
       </span>
     </div>
   );
-}
+};
 
 export default PlantRegistration;
