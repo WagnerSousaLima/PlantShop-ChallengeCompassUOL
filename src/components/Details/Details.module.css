@@ -82,6 +82,11 @@
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+.containerPrice {
+    display: flex;
+    gap: 1rem;
+}
+
 .price {
     font-family: Lato;
     font-weight: 700;
@@ -89,6 +94,16 @@
     line-height: 1.5rem;
     color: #000000;   
 }
+
+.discount {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    color: var(--gray-300);   
+    text-decoration: line-through;
+}
+
 
 .button {     
     padding: 1rem 3rem 1rem 3rem;

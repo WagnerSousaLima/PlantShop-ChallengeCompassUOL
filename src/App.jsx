@@ -50,7 +50,7 @@ const Product = () => {
   return (
     <>
       <Header />
-      <AllProducts/>
+      <Details />
       <Footer />
     </>
   );
@@ -59,7 +59,10 @@ const Product = () => {
 const Registration = () => {
   return (
     <>
+
+
       <Header/>
+ 
       <PlantRegistration />
       <Footer />
     </>
@@ -71,6 +74,16 @@ const AboutUsPage = () => {
     <>
       <Header />
       <AboutUs />
+      <Footer />
+    </>
+  );
+};
+
+const AllProduct = () => {
+  return (
+    <>
+      <Header />
+      <AllProducts />
       <Footer />
     </>
   );
@@ -90,11 +103,10 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Product" element={<Product />} />
             <Route path="/Product/:id" element={<Product />} />
             <Route path="/registration" element={<Registration />} />
-            <Route path="/about-us" element={<AboutUsPage />} />{" "}
-            {/* Nova rota para About Us */}
+            <Route path="/about-us" element={<AboutUsPage />} />
+            <Route path="/AllProduct" element={<AllProduct />} />
           </Routes>
         </Router>
       </ClerkProvider>

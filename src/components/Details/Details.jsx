@@ -31,9 +31,9 @@ const Details = () => {
                     </div> 
                 }
                 {props.discountPercentage > 0 ? 
-                    <div className={styles.price}>
+                    <div className={styles.containerPrice}>
                         <p className={styles.price}>${discount.toFixed(2)}</p>
-                        <p className={styles.price}>${props.price}</p>
+                        <p className={styles.discount}>${props.price}</p>
                     </div>
                     : <p className={styles.price}>${props.price}</p>
                 }                
