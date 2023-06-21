@@ -35,7 +35,7 @@ const Details = () => {
                         <p className={styles.price}>${discount.toFixed(2)}</p>
                         <p className={styles.price}>${props.price}</p>
                     </div>
-                    : <span className={styles.price}>${props.price}</span>
+                    : <p className={styles.price}>${props.price}</p>
                 }                
                 
                 <button onClick={handleClick} className={styles.button}>Check out</button>

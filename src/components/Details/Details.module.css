@@ -34,7 +34,7 @@
     font-family: EB Garamond;
     font-weight: 700;
     font-size: 3.2rem;
-    line-height: 4.15rem;
+    line-height: 4rem;
     color: #354733;    
 }
 
@@ -42,7 +42,7 @@
     font-family: Lato;
     font-weight: 700;
     font-size: 1.12rem;
-    line-height: 1.44rem;
+    line-height: 2rem;
     color: #AFB2AA;
 }
 
@@ -50,7 +50,7 @@
     font-family: Lato;
     font-weight: 700;
     font-size: 1.12rem;
-    line-height: 1.44rem;
+    line-height: 1.5rem;
     color: #000000;
 
     margin-top: 10px;
@@ -60,8 +60,7 @@
 .tags {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-        
+    justify-content: flex-start;        
 }
 
 .tag {
@@ -87,7 +86,7 @@
     font-family: Lato;
     font-weight: 700;
     font-size: 1.12rem;
-    line-height: 1.44rem;
+    line-height: 1.5rem;
     color: #000000;   
 }
 
@@ -100,7 +99,7 @@
     max-width: 12rem;
     max-height: 3rem;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
     font-family: Raleway;
     font-weight: 400;
