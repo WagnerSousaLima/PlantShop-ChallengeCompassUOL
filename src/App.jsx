@@ -58,9 +58,7 @@ const Product = () => {
 const Registration = () => {
   return (
     <>
-      <Header />
       <PlantRegistration />
-      <Footer />
     </>
   );
 };
