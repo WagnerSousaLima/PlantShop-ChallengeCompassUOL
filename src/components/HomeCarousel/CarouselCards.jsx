@@ -28,6 +28,14 @@ const CarouselCards = () => {
                             perMove: 1,
                             gap: '2rem',
                             speed: 3000,
+                            breakpoints: {
+                                768: {
+                                    perPage: 3,
+                                },
+                                425: {
+                                    perPage: 1,
+                                },
+                            },
                         }
                     }>
                     {noDiscountPlants.map((plant) => (
@@ -51,6 +59,14 @@ const CarouselCards = () => {
                             perMove: 1,
                             gap: '2rem',
                             speed: 3000,
+                            breakpoints: {
+                                768: {
+                                    perPage: 3,
+                                },
+                                425: {
+                                    perPage: 1,
+                                },
+                            },
                         }
                     }>
                     {discountPlants.map((plant) => (
