@@ -44,3 +44,7 @@
 - Login e páginas de inscrição personalizados
 - Renderizar todas as plantas cadastradas em uma página
 - Usar Next.js em substituição ao React
+
+  <p align="center">
+    <img width="1024" heigth="500" src="/public/images/desafioII.gif">
+  </p>
