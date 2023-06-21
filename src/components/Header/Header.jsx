@@ -20,10 +20,10 @@ export function Header() {
       </div>
 
       <div className={styles.links}>
-        <NavLink to="/" activeClassName={styles.activeLink} exact>Home</NavLink>
-        <NavLink to="/registration" activeClassName={styles.activeLink}>Register</NavLink>
-        <NavLink to="/product" activeClassName={styles.activeLink}>Products</NavLink>
-        <NavLink to="/about-us" activeClassName={styles.activeLink}>About us</NavLink>
+        <NavLink to="/" activeclassname={styles.activeLink} exact="true">Home</NavLink>
+        <NavLink to="/registration" activeclassname={styles.activeLink}>Register</NavLink>
+        <NavLink to="/product" activeclassname={styles.activeLink}>Products</NavLink>
+        <NavLink to="/about-us" activeclassname={styles.activeLink}>About us</NavLink>
       </div>
 
       <div className={styles.login}>

@@ -11,8 +11,7 @@
     width: 100vw;
     height: 25rem;
     padding: 8rem 0 0 6rem;
-    background-color: #F0F1EE;
-    
+    background-color: #F0F1EE;    
 }
 
 .content {
@@ -21,24 +20,24 @@
     align-items: flex-start;
 }
 
-h2 {
+.titles {
     font-family: EB Garamond;
     font-weight: 700;
     font-size: 3.2rem;
     line-height: 4.17rem;
 }
 
-hr {
+.hairline {
     width: 45vw;
     color: #000000;
-    border-top: 1px solid #000000;  
+    border-top: 2px solid #000000;  
 }
 
 .aboutText {
     font-family: Raleway;
     font-weight: 400;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 
     padding-top: 2rem;
     width: 45vw;
@@ -55,16 +54,17 @@ hr {
 .DevelopersBody {
     width: 100vw;
     height: auto;
-    padding: 3rem 6rem 6rem 6rem;
+    padding: 1rem 6rem;
 }
 
 .Body {
     margin-top: 4rem;
     width: 100vw;
     display: grid;
-    grid-template-rows: auto auto;
     grid-template-columns: auto auto auto;
-    gap: 50px;
+    row-gap: 4rem;
+    margin-bottom: 6rem;
+    margin-left: -3%;
 }
  
 
@@ -102,7 +102,7 @@ hr {
 
 .Photo {
     position: absolute;
-    top: 30%;
+    top: -5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 9rem;
@@ -122,33 +122,40 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
     border-radius: 0 0 20px 20px;
 }
 
-h3 {
+.name {
     font-family: EB Garamond;
     font-size: 700;
     font-size: 2rem;
-    line-height: 2.6rem;
+    line-height: 2.5rem;
     color: #354733;
 
     padding: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
 }
 
-#All {
+.description {
     font-family: Raleway;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.125rem;
     color: #808276;
+    text-align: center;
 
-    margin-bottom: 6rem;;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .Logo{
-    align-items: flex-end;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%); 
+    
     width: 2.5rem;
     height: 2.5rem;
+    
 }
