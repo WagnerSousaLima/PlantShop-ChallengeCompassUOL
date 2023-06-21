@@ -274,32 +274,50 @@
     {
       "id": 1,
       "name": "Amanda Nascimento",
-      "description": "Amanda Nascimento is an IT student passionate about front-end, cats and mostly weird movies."
+      "description": "Amanda Nascimento is an IT student passionate about front-end, cats and mostly weird movies.",
+      "photo": "https://github.com/amandanscmt.png",
+      "linkedin": "",
+      "github": "https://github.com/amandanscmt"
     },
     {
       "id": 2,
       "name": "Cintia Simoni",
-      "description": "Is an IT student, more specifically in systemas analysis and development, passionate about technologyand food."
+      "description": "Is an IT student, more specifically in systemas analysis and development, passionate about technologyand food.",
+      "photo": "https://github.com/Tita-Simoni.png",
+      "linkedin": "",
+      "github": "https://github.com/Tita-Simoni"
     },
     {
       "id": 3,
       "name": "Eduardo L. F. Reis",
-      "description": "Eduardo L. F. Reis, electronics technician and studying systems analysis and development, passionate about technology, paragliding and plays the harmonica in his spare time."
+      "description": "Eduardo L. F. Reis, electronics technician and studying systems analysis and development, passionate about technology, paragliding and plays the harmonica in his spare time.",
+      "photo": "https://github.com/eduardoluisreis.png",
+      "linkedin": "",
+      "github": "https://github.com/eduardoluisreis"
     },
     {
       "id": 4,
       "name": "Giovanna Castro",
-      "description": "Giovanna is an IT student, passionate about technology and especially front-end. In her spare time, she enjoys puzzle games and is addicted to coffee."
+      "description": "Giovanna is an IT student, passionate about technology and especially front-end. In her spare time, she enjoys puzzle games and is addicted to coffee.",
+      "photo": "https://github.com/GiovannaCstr.png",
+      "linkedin": "",
+      "github": "https://github.com/GiovannaCstr"
     },
     {
       "id": 5,
       "name": "Nicacio Basílio",
-      "description": "Nicacio is a biologist and systems analyst and developer in training, passionate about difficult-to-solve problems."
+      "description": "Nicacio is a biologist and systems analyst and developer in training, passionate about difficult-to-solve problems.",
+      "photo": "https://github.com/nicaciobasilio.png",
+      "linkedin": "",
+      "github": "https://github.com/nicaciobasilio"
     },
     {
       "id": 6,
       "name": "Wagner Augusto",
-      "description": "He loves technology and how it can transform people's lives. Because of this, he is a computing, science, innovation, and tech lover. He is studying to be the best software developer he can be."
+      "description": "He loves technology and how it can transform people's lives. Because of this, he is a computing, science, innovation, and tech lover. He is studying to be the best software developer he can be.",
+      "photo": "https://github.com/WagnerSousaLima.png",
+      "linkedin": "",
+      "github": "https://github.com/WagnerSousaLima"
     }
   ]
 }
