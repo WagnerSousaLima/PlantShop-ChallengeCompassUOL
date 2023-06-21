@@ -1,138 +1,136 @@
-@import '../../global.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import "../../global.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
-.container {
+.regContainer {
+  display: flex;
+  background: #f0f1ee;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.formTitle {
+  color: #354733;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.formTitle hr {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 0.01rem;
+  border: none;
+  background-color: var(--green-200);
+}
+
+.formContainer {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  gap: 0.5rem;
+}
+
+.formContainer input {
+  border-color: var(--green-200);
+  border-width: 0.1rem;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.formTextInput textarea {
+  border-color: var(--green-200);
+  border-width: 0.1rem;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.formPrice {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.formPriceInput {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.formDiscountInput {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.formLabelRadio {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.formTextInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.formImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.formImage img:hover {
+  filter: none;
+  transition: 0.7s ease-in-out;
+}
+
+.registerButton {
+  margin-top: 3rem;
+  background-color: var(--green-700) !important;
+  color: #fcfcfc;
+  padding: 0.5rem 3rem;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+
+.registerButton:hover {
+  background-color: #2fbd6a !important;
+  transition: 0.7s;
+}
+
+@media only screen and (max-width: 768px) {
+  .formImage {
+    display: none;
+  }
+  .formPrice {
     display: flex;
-    background: #F0F1EE
-
-    ;
-    position: relative;
-    height: 1077px;
-    width: 100% vw;
-    align-items: flex-start;
-    border: 1px solid red;
-    padding: 0;
+  }
 }
 
-.titulo {
-    width: 476px;
-    height: 56px;
-    color: #354733;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 117%;
+.formFeaturesInput {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.form {
-    box-sizing: border-box;
+.formDescriptionInput {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .formContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 48px;
-    gap: 36px;
-    width: 40%;
-    height: 1075px;
-    left: 57px;
-    border: 1px solid rgb(88, 255, 4);
-}
-
-.identification {
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-}
-
-.price {
+    padding: 2rem;
+    background-color: #f0f1ee;
+    height: 100%;
+  }
+  .regContainer > body {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 233px;
-    height: 84px;
-    padding: 0px;
-    gap: 18px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.form input {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 0px 12px 16px;
-    gap: 10px;
-    width: 476px;
-    height: 46px;
-    border: 1.5px solid #AFB2AA;
-    border-radius: 4px;
-    border-radius: 8px;
-}
-
-#indoor, #outdoor {
-    height: 14px;
-    width: 15px;
-}
-
-
-.cxtexto {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    gap: 5px;
-}
-
-
-.form label {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 122%;
-}
-
-.imageform {
-    /* display: flex; */
-    /* align-items: flex-start; */
-    position: relative;
-    /* left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%; */
-    /* max-width: 3rem; */
-    /* margin: 2rem auto; */
-    /* padding: 0 1rem; */
-
-    object-fit: cover;
-    filter: grayscale(100%);
-    border: 1px solid rgb(6, 247, 247);
-}
-
-.imageform img {
     width: 100%;
-    height: auto;
-}
-
-.imageform:hover,
-.imageform img:hover {
-    filter: none;
-    transition: 0.7s ease-in-out;
-}
-
-.radio {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-    top: 598px;
-    left: 48px;
-    width: 213px;
-    height: 53px;
-}
-
-.register {
-    text-align: center;
+    height: 100%;
+  }
 }

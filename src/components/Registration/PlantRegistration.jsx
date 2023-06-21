@@ -1,68 +1,75 @@
-
 import styles from "./PlantRegistration.module.css";
-import imageform from "./imgs/image_Form.png"
+import imageForm from "./imgs/image_Form.png";
 
 function PlantRegistration() {
-	return (
-		<div className={styles.container}>
-			<div className={styles.form}>
-				<form>
+  return (
+    <div className={styles.regContainer}>
+      <form className={styles.formContainer}>
+        <span className={styles.formTitle}>
+          <h1>
+            Plant registration <hr />
+          </h1>
+        </span>
+        <label htmlFor="name">Plant name</label>
+        <input type="text" placeholder="Echinocereus Cactus" />
 
-					<div>
-						<p className={styles.titulo}>Plant registration</p>
-						<hr />
-					</div>
+        <label htmlFor="type">Plant type</label>
+        <input type="text" placeholder="Cactus" />
 
-					<div className={styles.identification}>
-						<label htmlFor="name">Plant name</label>
-						<input type="text" placeholder=" " />
+        <div className={styles.formPrice}>
+          <span className={styles.formPriceInput}>
+            <label htmlFor="price">Price</label>
+            <input type="number" placeholder="$139.99" />
+          </span>
 
-						<label htmlFor="subtitle">Plant subtitle</label>
-						<input type="text" placeholder=" " />
+          <span className={styles.formDiscountInput}>
+            <label htmlFor="discount">Discount percentage</label>
+            <input type="number" placeholder="20%" />
+          </span>
+        </div>
 
-						<label htmlFor="type">Plant type</label>
-						<input type="text" placeholder=" " />
-					</div>
+        <label>Label:</label>
+        <div className={styles.formLabelRadio}>
+          <span>
+            <input type="radio" id="indoor" value="Label" /> Indoor
+          </span>
+          <span>
+            <input type="radio" id="outdoor" value="Label" /> Outdoor
+          </span>
+        </div>
 
-					<div className={styles.price}>
-						<label htmlFor="price">Price</label>
-						<input type="number" placeholder="" />
+        <div className={styles.formTextInput}>
+          <label htmlFor="Label">Features:</label>
+          <textarea
+            className={styles.formFeaturesInput}
+            type="text"
+            id="feature"
+            placeholder="Species: Echinocereus..."
+          />
 
-						<label htmlFor="discount">Discount percentage</label>
-						<input type="number" placeholder="" />
-					</div>
-
-					<div className={styles.radio}>
-						<label>Label:</label>
-						<input type="radio" id="indoor" value="Label" /> indoor
-						<input type="radio" id=" outdoor" value="Label" /> Outdoor
-					</div>
-
-					<div className={styles.cxtexto}>
-						<label htmlFor="Label">Features:</label>
-						<textarea name="" id="" cols="30" rows="10"></textarea>
-						<br />
-
-						<label htmlFor="Label">Description:</label>
-						<textarea name="" id="" cols="30" rows="10"></textarea>
-					</div>
-
-				</form>
-
-				<div className={styles.register}>
-					<label
-						htmlFor="">
-					</label>
-					<input type="submit" value="Register" />
-				</div>
-
-				<div className={styles.imageform}>
-					<img src={imageform} alt="imageform" />
-				</div>
-
-			</div>
-		</div>
-	);
+          <label htmlFor="Label">Description:</label>
+          <textarea
+            className={styles.formDescriptionInput}
+            type="text"
+            id="description"
+            placeholder="Ladyfinger cactus..."
+          />
+        </div>
+        <div>
+          <button
+            className={styles.registerButton}
+            type="submit"
+            value="Register"
+          >
+            <span className={styles.registerButtonText}>Register</span>
+          </button>
+        </div>
+      </form>
+      <span className={styles.formImage}>
+        <img src={imageForm} alt="background image" draggable="false" />
+      </span>
+    </div>
+  );
 }
 
 export default PlantRegistration;
