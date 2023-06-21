@@ -22,7 +22,7 @@ export function Header() {
       <div className={styles.links}>
         <NavLink to="/" activeclassname={styles.activeLink} exact="true">Home</NavLink>
         <NavLink to="/registration" activeclassname={styles.activeLink}>Register</NavLink>
-        <NavLink to="/product" activeclassname={styles.activeLink}>Products</NavLink>
+        <NavLink to="/AllProduct" activeclassname={styles.activeLink}>Products</NavLink>
         <NavLink to="/about-us" activeclassname={styles.activeLink}>About us</NavLink>
       </div>
 
