@@ -1,27 +1,51 @@
-  <p align="center">
-    <img width="1024" heigth="500" src="/public/images/desafioII.gif">
-  </p>
+<h1 align="center"> PlantShop </h1>
 
-  
-# Desafio programa de estágio Compass UOL"
+![PlantShop](/public/images/desafioII.gif)
 
-### O desafio foi criar uma pagina de E-Commerce de plantas utlizando React  
+Bem-vindo ao repositório do PlantShop, um projeto desenvolvido como parte do Desafio do Programa de Estágio Compass UOL. Neste desafio, criamos uma página de E-Commerce de plantas utilizando React. 
+## Desafio
+
+O desafio consistiu em criar uma página de E-Commerce de plantas com os seguintes requisitos mandatórios:
+
+- Utilizar a biblioteca "Clerk" para lidar com autenticação do usuário.
+- Implementar métodos "POST" e "GET" para preenchimento do Banco de Dados e leitura das informações.
+- Ao preencher o formulário de cadastro de uma planta, uma requisição POST deve ser feita ao banco de dados JSON Server.
+- Redirecionar o usuário para rotas específicas ao clicar em um item de planta, direcionando-o para a página que contém informações detalhadas do produto.
+- Criar controles deslizantes para exibição das plantas.
+- Desenvolver uma página “Sobre Nós” que contenha informações sobre os desenvolvedores, mantendo a mesma paleta de cores.
+
+## Progresso e Relatórios
+
+Você pode acompanhar nosso progresso e acessar relatórios detalhados no Notion. [Clique aqui para acessar o Notion](https://adventurous-tire-5e0.notion.site/Second-Challenge-Compass-UOL-2d356ea0a309466baced3cc66cde7364).
+
+## Como usar
+
+Para usar o PlantShop em sua máquina local, siga as etapas abaixo:
+
+1. Clone este repositório em seu computador:
+
+```bash
+git clone https://github.com/seu-usuario/plantshop.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd plantshop
+```
+
+3. Instale as dependências necessárias:
+
+```bash
+npm install
+```
+
+4. Inicie o aplicativo:
+
+```bash
+npm start
+```
+
+O aplicativo será executado localmente em http://localhost:3000.
 
 
-**Requisitos mandatórios:**
-
-- Usar biblioteca "Clerk" para lidar com autenticação do usuário
-
-- Criar métodos "POST"e "GET" para preenchimento do Banco de Dados e leitura das informções.
-
-- Ao preencher o formulário de cadastro da planta, uma requisição POST deve ser feita ao banco de dados JSON Server
-
-- Redirecionar usuáro para rotas especificas ao clicar em um item de planta, direcionando-o à pagina especifica que contém as informações detalhadas da página. 
-
-- Criar controles deslizantes para exibição das plantas
-
-- Criar uma página “Sobre nós” que contenha as informações sobre os desenvolvedores. Usando a mesma paleta de cores.
-
-
-
-    ### [Check out our progress tracker and reports on Notion!](https://adventurous-tire-5e0.notion.site/Second-Challenge-Compass-UOL-2d356ea0a309466baced3cc66cde7364)
